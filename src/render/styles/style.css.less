@@ -9,6 +9,9 @@
 @purple-2: #b69aa1;
 @blue-1: #0049ff;
 
+@ui-padding: 25px;
+@ui-padding-wide: 70px;
+
 body,html {
 	background: transparent;
 	width: 100%;
@@ -74,6 +77,14 @@ h1,h2,h3,h4,h5,h6 {
 	text-align: center;
 }
 
+
+p {
+	font-size: 24px;
+	font-weight: 700;
+	color: @blue-1;
+}
+
+
 /*******************
 Sections
 *******************/
@@ -94,7 +105,7 @@ section {
 	padding: 0;
 	margin: 0;
 	width: 100%;
-	height: 100%;
+	min-height: 100vh;
 }
 
 section.feature {
@@ -104,6 +115,145 @@ section.feature {
     -o-background-size: cover;      /* Opera*/
     background-size: cover;         /* Generic*/
     vertical-align: middle;
-    z-index: 10
+    z-index: 10;
+	height: 100%;
 }
 
+section.light {
+	background: @beige-5;
+}
+
+section.medium {
+	background: @beige-3;
+}
+
+section.dark {
+	background: @beige-1;
+	h1,h2,h3,h4,h5,h6 {
+		color: @purple-1;
+	}
+}
+
+section.blue {
+	background: @blue-1;
+	p {
+		color: @beige-1;
+	}
+}
+
+section.purple {
+	background: @purple-1;
+	p {
+		color: @beige-5;
+	}
+}
+
+section.feature-2 {
+	background: url(/images/feature-moons.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-size: cover;         /* Generic*/
+}
+
+section.feature-3 {
+	background: url(/images/feature-moon.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-size: cover;         /* Generic*/
+}
+
+section.feature-4 {
+	background: url(/images/card.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-size: cover;         /* Generic*/
+}
+
+section.feature-5 {
+	background: url(/images/weedeater.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-size: cover;         /* Generic*/
+}
+
+section.feature-6 {
+	background: url(/images/landscape-feature.png) no-repeat center center fixed;
+    -webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-size: cover;         /* Generic*/
+}
+
+.container {
+	display: block;
+	width: 80%;
+	margin: 0 auto;
+	padding: 100px 0;
+}
+
+/*******************
+UI
+*******************/
+
+.dials {
+	position: fixed;
+	bottom: @ui-padding;
+	right: @ui-padding;
+	width: auto;
+	img {
+		display: inline;
+		margin-left: -10px;
+		cursor: pointer;
+	}
+}
+
+.dial-ring {
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+}
+
+.dial-ring:hover {
+  top: -30px;
+}
+
+.ui {
+	position: fixed;
+	z-index: 9;
+}
+
+#ui-right {
+	position: fixed;
+	top: @ui-padding-wide;
+	right: @ui-padding;
+	height: 50vh;
+	width: auto;
+}
+
+#ui-left {
+	position: fixed;
+	top: @ui-padding-wide;
+	left: @ui-padding;
+	height: 60vh;
+	max-height:100%;
+	width: auto;
+}
+
+#ui-toggle {
+	position: fixed;
+	top: @ui-padding;
+	left: @ui-padding-wide;
+	height: 10vh;
+	width: auto;
+}
+
+#ui-wasd {
+	position: fixed;
+	bottom: @ui-padding;
+	left: @ui-padding;
+	width: auto;
+}
