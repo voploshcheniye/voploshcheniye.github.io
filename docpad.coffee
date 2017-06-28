@@ -12,36 +12,35 @@ docpadConfig = {
 		# Specify some site properties
 		site:
 			# The production url of our website
-			url: "http://website.com"
+			url: "http://pattern.ist"
 
 			# Here are some old site urls that you would like to redirect from
 			oldUrls: [
-				'www.website.com',
-				'website.herokuapp.com'
 			]
 
 			# The default title of our website
-			title: "Your Website"
+			title: "PATTERNIST"
 
 			# The website description (for SEO)
 			description: """
-				When your website appears in search results in say Google, the text here will be shown underneath your website's title.
+				Patternist is a location-based augmented reality world in which you collect, trade, and combine elements to reveal the landscape of a distant exoplanet.
 				"""
 
 			# The website keywords (for SEO) separated by commas
 			keywords: """
-				place, your, website, keywoards, here, keep, them, related, to, the, content, of, your, website
+				augmented reality, virtual reality, location-based games, games, mobile games, gps, bluetooth, exoplanet, trappist, strelka institute, blockchain, 
 				"""
 
 			# The website author's name
-			author: "Your Name"
+			author: "Voploshcheniye Inc."
 
-			# The website author's email
-			email: "your@email.com"
+			# The website author's emailugin
+			email: "contact@pattern.ist"
 
 			# Styles
 			styles: [
-				"/styles/twitter-bootstrap.css"
+				"//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+				"//fonts.googleapis.com/css?family=Poppins:700|Rajdhani:400,700|Lato:400,700"
 				"/styles/style.css"
 			]
 
@@ -49,7 +48,8 @@ docpadConfig = {
 			scripts: [
 				"//cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"
 				"//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"
-				"/vendor/twitter-bootstrap/dist/js/bootstrap.min.js"
+				"//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+				"/scripts/jquery-ripples.js"
 				"/scripts/script.js"
 			]
 
@@ -96,16 +96,9 @@ docpadConfig = {
 	# Plugins
 
 	plugins:
-		downloader:
-			downloads: [
-				{
-					name: 'Bootstrap'
-					path: 'src/files/vendor/twitter-bootstrap'
-					url: 'https://codeload.github.com/twbs/bootstrap/tar.gz/master'
-					tarExtractClean: true
-				}
-			]
-
+		ghpages:
+			deployRemote: 'origin'
+			deployBranch: 'master'
 
 	# =================================
 	# DocPad Events

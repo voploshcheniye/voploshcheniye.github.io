@@ -1,0 +1,83 @@
+@import "mixins.less";
+
+@beige-1: #e8aa8b;
+@beige-2: #ebbaa0;
+@beige-3: #eecbb6;
+@beige-4: #f1dbcb;
+@beige-5: #d4bbb6;
+@purple-1: #997a8c;
+@purple-2: #b69aa1;
+@blue-1: #0049ff;
+
+body,html {
+	background: transparent;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+/*******************
+Typography
+*******************/
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Rajdhani';
+	font-weight: 700;
+	color: @beige-5;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+/* Patternist title */
+.title {
+	font-family: 'Poppins';
+	font-size: 148px;
+	font-weight: 700;
+	text-align: center;
+	background: url(/images/weedeater.jpg) no-repeat center center;
+	background-size: cover;
+	color: @beige-1;
+	text-align: center;
+	-webkit-text-fill-color: transparent; /* overrides the white text color in webkit browsers */
+	-webkit-background-clip: text;
+	.medium-viewport({
+		font-size: 72px;
+	});
+	.small-viewport({
+		font-size: 48px;
+	});
+}
+
+/*******************
+Sections
+*******************/
+
+.parent-element {
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.element {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+section {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+
+section.feature {
+	background: url(/images/feature.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-size: cover;         /* Generic*/
+    vertical-align: middle;
+    z-index: 10
+}
+
