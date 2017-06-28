@@ -20,19 +20,33 @@ body,html {
 /*******************
 Typography
 *******************/
-h1,h2,h3,h4,h5,h6 {
-	font-family: 'Rajdhani';
-	font-weight: 700;
-	color: @beige-5;
-	text-transform: uppercase;
-	text-align: center;
+
+@font-face {
+	font-family: 'Neou Bold';
+	src: url('/fonts/Neou-Bold.eot');
+	src: url('/fonts/Neou-Bold.eot?#iefix') format('embedded-opentype'),
+		url('/fonts/Neou-Bold.woff2') format('woff2'),
+		url('/fonts/Neou-Bold.woff') format('woff'),
+		url('/fonts/Neou-Bold.ttf') format('truetype'),
+		url('/fonts/Neou-Bold.svg#Neou-Bold') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family:"Vera Humana 95";
+	src:url("/fonts/verah.eot?") format("eot"), 
+	url("/fonts/verah.woff") format("woff"),
+	url("/fonts/verah.ttf") format("truetype"),
+	url("/fonts/verah.svg#VeraHumana95") format("svg");
+	font-weight:normal;
+	font-style:normal;
 }
 
 /* Patternist title */
 .title {
-	font-family: 'Poppins';
+	font-family: 'Neou Bold';
 	font-size: 148px;
-	font-weight: 700;
 	text-align: center;
 	background: url(/images/weedeater.jpg) no-repeat center center;
 	background-size: cover;
@@ -46,6 +60,18 @@ h1,h2,h3,h4,h5,h6 {
 	.small-viewport({
 		font-size: 48px;
 	});
+}
+
+p, a, blockquote, ul, li {
+	font-family: 'Vera Humana 95';
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Rajdhani';
+	font-weight: 700;
+	color: @beige-5;
+	text-transform: uppercase;
+	text-align: center;
 }
 
 /*******************
