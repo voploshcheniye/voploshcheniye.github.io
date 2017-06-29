@@ -109,3 +109,10 @@ layout: 'default'
 			<%- @partial('backstory') %>
 		</div>
 	</section>
+
+
+	<section class="blue center">
+		<div class="container">
+			<%- @partial('credits') %>
+		</div>
+	</section>
