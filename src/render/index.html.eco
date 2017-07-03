@@ -142,6 +142,9 @@ layout: 'default'
 			<div class="row">
 					<h1>AND ALLOYS REVEAL ANOTHER PLANET</h1>
 			</div>
+			<div class="row">
+					<img src="/images/city_matrix.gif">
+			</div>
 			<div class="row description center">
 					<%- @partial('gameplay-reveal') %>
 			</div>
