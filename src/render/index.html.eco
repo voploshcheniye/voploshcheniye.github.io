@@ -7,101 +7,182 @@ layout: 'default'
 			<div class="title">
 				PATTERNIST
 			</div>
-			<h1>
-				Launching July 3
-			</h1>
+			<h2>
+				At first we thought it was the weather.
+			</h2>
 
+		</div>
+	</section>
+
+	<section class="medium sm">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-5 col-md-5 col-sm-12 col-sm-12">
+					<%- @partial('description') %>
+				</div>
+				<div class="col-lg-6 col-lg-offset-1 col-md-6 col-md-offset-1 col-sm-12 col-xs-12">
+					<div id="trailer">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/KV2j-PAi2fg" frameborder="0" allowfullscreen></iframe>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="feature-2">
+	</section>
+
+	<section class="black sm">
+		<div class="title-sm">
+			PATTERNIST GAMEPLAY
+		</div>
+	</section>
+
+	<section id="elements" class="dark">
+		<div class="container">
+			<%- @partial('elements') %>
+			<img src="/images/elements.png">
+			<%- @partial('urban-attributes') %>
+		</div>
+	</section>
+
+	<section id="detect" class="medium">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<h1>Detect, Collect and Combine Elements</h1>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-lg-3 col-md-3 col-sm-12 col-sm-12">
+					<img class="phone" src="/images/Interface-FINAL-06-copy.png">
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-12 col-sm-12">
+					<img class="phone" src="/images/Interface-FINAL-02.png">
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-12 col-sm-12">
+					<img class="phone" src="/images/Interface-FINAL-04.png">
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-12 col-sm-12">
+					<img class="phone" src="/images/Interface-FINAL-03.png">
+				</div>
+			</div>
+			<div class="row description center">
+					<p>In AR mode, your smartphone acts like a barometer, a geiger counter and a metal detector all in one, alerting you to Patternist elements inherent in your local area. Whether you’re playing in your neighborhood or your browser, you can collect these symbolic elements ambiently hovering in the environment. 
+					</p>
+			</div>
+		</div>
+	</section>
+
+	<section id="detect" class="black">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<h1>Combined Elements Create Alloys</h1>
+				</div>
+			</div>
+
+			<div class="row">
+					<img src="/images/alloy_grid.png">
+			</div>
+			<div class="row description center">
+					<p>Alloys are developed by combining pairs of elements collected in a player’s inventory. Each element has generative inputs that influence the form of the alloys they make. For instance, the alloy Lavalite is generated from the elements Macadigen — related to informal parking areas, creates vertical spatial conditions — and Coradium — related to unplanned urban greenery weaves solidity and hollows. When these conditions combine, Lavalite becomes a strange mix of deep trenches and soaring peaks, billowing peaks and empty voids.
+					</p>
+					<p>
+					For details on the alloys, players can consult the Alloy Codex interface shown above to preview which landform characteristics are revealed by each alloy and to find the parent elements of each alloy.
+					</p>
+			</div>
+		</div>
+	</section>
+
+	<section id="cards" class="medium">
+		<div class="container">
+			<div class="row">
+					<img src="/images/Card-Grid.png">
+			</div>
+			<div class="row description center">
+					<p>There are 21 alloys that can be created by combining different quantities of elements, contained within an alchemy card deck.
+					</p>
+			</div>
 		</div>
 	</section>
 
 	<section class="dark">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
-
-				</div>
-				<div class="col-lg-5 col-md-5 col-sm-12 col-sm-12">
-					<%- @partial('intro') %>
-				</div>
+					<h1>AND ALLOYS REVEAL ANOTHER PLANET</h1>
 			</div>
-		</div>
-	</section>
-
-	<section class="feature-2">
-	</section>
-
-	<section>
-		<div class="container">
-			<%- @partial('gameplay-detect') %>
-		</div>
-	</section>
-
-	<section class="light">
-		<div class="container">
-			<%- @partial('gameplay-trade') %>
-		</div>
-	</section>
-
-	<section class="medium">
-		<div class="container">
-			<%- @partial('gameplay-combine') %>
-		</div>
-	</section>
-
-	<section class="blue">
-		<div class="container">
-			<%- @partial('gameplay-reveal') %>
+			<div class="row description center">
+					<%- @partial('gameplay-reveal') %>
+			</div>
 		</div>
 	</section>
 
 	<section class="feature-3">
 	</section>
 
-	<section class="dark">
-			<div class="container">
+	<section id="trade" class="blue sm">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<h1>Multiplayer Trading</h1>
+				</div>
+			</div>
+			<div class="row row-padded">
+				<div class="col-lg-5 col-md-5 col-sm-12 col-sm-12">
+					<img src="/images/05tradegif.gif">
+				</div>
+				<div class="col-lg-6 col-lg-offset-1 col-md-6 col-lg-offset-1 col-sm-12 col-sm-12">
+					<%- @partial('gameplay-trade') %>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-6 col-md-6 col-sm-12 col-sm-12">
+					<%- @partial('trade-2') %>
+				</div>
+				<div class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1 col-sm-12 col-sm-12">
+					<img src="/images/05tradegif.gif">
+				</div>
+			</div>
+		</div>
+	</section>
 
-			<img id="alloy-grid" src="" alt="" usemap="#Map" />
-			<map name="Map" id="Map">
-				<area alt="" title="" href="#myModal" data-backdrop="false" data-toggle="modal" shape="poly" coords="114,67,63,117,114,166,164,116" />
-				<area alt="" title="" href="#myModal2" data-backdrop="false" data-toggle="modal" shape="poly" coords="220,66,269,116,220,166,170,116" />
-				<area alt="" title="" href="#myModal" data-backdrop="false" data-toggle="modal" shape="poly" coords="326,67,376,115,327,166,276,115" />
-				<area alt="" title="" href="#myModal" data-backdrop="false" data-toggle="modal" shape="poly" coords="432,67,482,117,432,165,382,117" />
-				<area alt="" title="" href="#myModal" data-backdrop="false" data-toggle="modal" shape="poly" coords="539,65,590,116,539,167,491,116" />
-				<area alt="" title="" href="#myModal" data-backdrop="false" data-toggle="modal" shape="poly" coords="644,66,695,116,645,166,596,116" />
-				<area alt="" title="" href="#myModal2" data-backdrop="false" data-toggle="modal" shape="poly" coords="166,120,217,170,167,219,117,169" />
-				<area alt="" title="" href="#myModal" data-backdrop="false" data-toggle="modal" shape="poly" coords="273,121,323,170,274,220,224,171" />
-				<area alt="" title="" href="#myModal" data-backdrop="false" data-toggle="modal" shape="poly" coords="272,124,320,170,274,216,227,170" />
-				<area alt="" title="" href="#myModal2" data-backdrop="false" data-toggle="modal"  shape="poly" coords="333,171,379,123,425,170,379,216" />
-				<area alt="" title="" href="#myModal" data-backdrop="false" data-toggle="modal" shape="poly" coords="441,169,485,124,531,169,484,214" />
-				<area alt="" title="" href="#myModal" data-backdrop="false" data-toggle="modal" shape="poly" coords="592,121,641,171,592,218,546,170" />
-				<area alt="" title="" href="#myModal2" data-backdrop="false" data-toggle="modal" shape="poly" coords="220,176,268,224,219,271,172,224" />
-				<area alt="" title="" href="#myModal" data-backdrop="false" data-toggle="modal" shape="poly" coords="279,223,326,175,374,223,326,270" />
-				<area alt="" title="" href="#myModal" data-backdrop="false" data-toggle="modal" shape="poly" coords="432,175,482,224,433,273,384,223" />
-				<area alt="" title="" href="#myModal" data-backdrop="false" data-toggle="modal" shape="poly" coords="539,174,588,223,539,272,491,223" />
-				<area alt="" title="" href="#myModal" data-backdrop="false" data-toggle="modal" shape="poly" coords="225,276,273,227,322,276,273,324" />
-				<area alt="" title="" href="#myModal2" data-backdrop="false" data-toggle="modal" shape="poly" coords="333,276,379,229,427,276,380,322" />
-				<area alt="" title="" href="#myModal" data-backdrop="false" data-toggle="modal" shape="poly" coords="486,228,534,277,486,325,440,278" />
-				<area alt="" title="" href="#myModal" data-backdrop="false" data-toggle="modal" shape="poly" coords="325,280,374,329,326,378,278,329" />
-				<area alt="" title="" href="#myModal" data-backdrop="false" data-toggle="modal" shape="poly" coords="383,328,432,280,482,330,433,378" />
-				<area alt="" title="" href="#myModal2" data-backdrop="false" data-toggle="modal" shape="poly" coords="379,333,428,382,379,432,330,383" />
-				<area alt="" title="" href="#myModal2" data-backdrop="false" data-toggle="modal" shape="poly" coords="59,18,105,62,59,109,13,61" />
-				<area alt="" title="" href="#myModal2" data-backdrop="false" data-toggle="modal" shape="poly" coords="166,19,213,63,166,110,123,63" />
-				<area alt="" title="" href="#myModal2" data-backdrop="false" data-toggle="modal" shape="poly" coords="274,17,320,61,273,109,228,61" />
-				<area alt="" title="" href="#myModal2" data-backdrop="false" data-toggle="modal" shape="poly" coords="335,62,379,17,425,61,379,109" />
-				<area alt="" title="" href="#myModal2" data-backdrop="false" data-toggle="modal" shape="poly" coords="485,16,533,62,486,109,441,62" />
-				<area alt="" title="" href="#myModal2" data-backdrop="false" data-toggle="modal" shape="poly" coords="591,16,639,62,593,109,548,62" />
-				<area alt="" title="" href="#myModal2" data-backdrop="false" data-toggle="modal" shape="poly" coords="698,18,745,65,700,110,654,62" />
-			</map>
-
-			<%- @partial('system-alloys') %>
-
-			</div>		
+	<section id="ledger" class="medium">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<h1>GEO-LOCATED DISTRIBUTED LEDGER</h1>
+				</div>
+			</div>
+			<div class="row">
+					<img src="/images/05LedgerGifWeb.gif">
+			</div>
+			<div class="row description center">
+				<div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-12 col-sm-12">
+					<%- @partial('ledger') %>
+				</div>
+			</div>
+		</div>
 	</section>
 
 	<section class="feature-4">
 	</section>
 
+	<section class="black sm">
+		<div class="title-sm">
+			URBAN RESEARCH
+		</div>
+	</section>
+
 	<section class="feature-5">
+	</section>
+
+	<section class="black sm">
+		<div class="title-sm">
+			PATTERNIST ORIGIN STORY
+		</div>
 	</section>
 
 	<section class="purple">

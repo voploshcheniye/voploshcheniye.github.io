@@ -1,3 +1,3 @@
-# Trade Inventory #
+In the multiplayer environment, you can trade elements with other players, but only when they are nearby. Trading is necessary for players to collect elements which may not exist in their everyday environment, creating sustained dialogues and chance encounters.
 
-The trading system is based on algorithmic matching and balancing protocols that allow players to set preferences and let their equipment do the work of sorting their options, so long as the players are within the required distance of one another. 
+The trade menus operate based on the proximity of other players, populating your marketplace with different offers that are nearby.  You can choose elements and quantities, as well as schedule trades for later. 

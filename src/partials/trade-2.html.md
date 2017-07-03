@@ -1,0 +1,3 @@
+The trading system is based on algorithmic matching and balancing protocols that allow players to set preferences and let their equipment do the work of sorting their options, so long as the players are within the required distance of one another. 
+
+The system is managed by a network trade algorithm. In short, this means the game will take into account what all players are offering, and try to facilitate a multi-directional trade between a network of players &#8212; from one-to-one, one-to-many and many-to-many.

@@ -1,3 +1,1 @@
-# Detect Elements #
-
 In order for players to engage with this uncharted landscape, each is equipped with a range of sensors and tools that will allow them to detect as many foreign elements as their sensors allow.  You’ll find that even the best equipped explorer will always have limited capacities and that you will have to actively engage and trade with other players to complete your element inventory and the possible allows.
