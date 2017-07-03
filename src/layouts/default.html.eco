@@ -44,57 +44,6 @@
 </head>
 <body>
 
-	<!-- User Interface -->
-	<div class="ui">
-		<div class="dials hidden-md hidden-sm hidden-xs">
-			<a href="#alloys">
-				<img class="dial-ring" src="/images/dial-ring-rg.png">
-			</a>
-			<a href="#interface">
-				<img class="dial-ring" src="/images/dial-ring-rg.png">
-			</a>
-			<a href="#economics">
-				<img class="dial-ring" src="/images/dial-ring-rg.png">
-			</a>
-			<a href="#urban">
-				<img class="dial-ring" src="/images/dial-ring-rg.png">
-			</a>
-		</div>
-
-		<div class="dials hidden-lg">
-			<a href="#alloys">
-				<img class="dial-ring" src="/images/dial-ring-sm.png">
-			</a>
-			<a href="#interface">
-				<img class="dial-ring" src="/images/dial-ring-sm.png">
-			</a>
-			<a href="#economics">
-				<img class="dial-ring" src="/images/dial-ring-sm.png">
-			</a>
-			<a href="#urban">
-				<img class="dial-ring" src="/images/dial-ring-sm.png">
-			</a>
-		</div>
-
-		<div class="hidden-sm hidden-xs">
-			<img id="ui-right" src="/images/grid_right.png">
-			<img id="ui-left" src="/images/grid_left.png">
-		</div>
-
-		<div class="hidden-lg hidden-md">
-			<img id="ui-right" src="/images/grid_right_sm.png">
-			<img id="ui-left" src="/images/grid_left_sm.png">
-		</div>
-
-		<div class="hidden-md hidden-sm hidden-xs">
-			<img id="ui-wasd" src="/images/grid_toggle.png">
-		</div>
-
-		<div class="hidden-lg">
-			<img id="ui-wasd" src="/images/grid_toggle_sm.png">
-		</div>
-
-	</div>
 
 	<%- @content %>
 
