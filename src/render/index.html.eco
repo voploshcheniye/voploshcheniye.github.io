@@ -29,6 +29,34 @@ layout: 'default'
 		</div>
 	</section>
 
+	<section id="contact" class="black sm">
+
+			<iframe frameborder="0" src="https://itch.io/embed/155811?border_width=0&amp;bg_color=444&amp;fg_color=ffffff&amp;link_color=eecbb6&amp;border_color=444" width="550" height="165"></iframe>
+
+			<div class="title-sm">
+				CHANNELS
+			</div>
+			<a href="https://www.youtube.com/watch?v=KV2j-PAi2fg">
+				<h2>
+				YOUTUBE
+				</h2>
+			</a>
+			<a href="https://twitter.com/patternist3">
+				<h2>
+				TWITTER
+				</h2>
+			</a>
+			<a href="https://instagram.com/patternist3">
+				<h2>
+				INSTAGRAM
+				</h2>
+			</a>
+			<a href="mailto:contact@pattern.ist">
+				<h2>
+				CONTACT@PATTERN.IST
+				</h2>
+			</a>
+	</section>
 
 	<section class="feature-2">
 	</section>
@@ -120,6 +148,10 @@ layout: 'default'
 		</div>
 	</section>
 
+	<section class="black">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/HsBw06dVCVU" frameborder="0" allowfullscreen></iframe>
+	</section>
+
 	<section class="feature-3">
 	</section>
 
@@ -143,7 +175,7 @@ layout: 'default'
 					<%- @partial('trade-2') %>
 				</div>
 				<div class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1 col-sm-12 col-sm-12">
-					<img src="/images/05tradegif.gif">
+					<img src="/images/network-trade.png">
 				</div>
 			</div>
 		</div>
@@ -157,7 +189,7 @@ layout: 'default'
 				</div>
 			</div>
 			<div class="row">
-					<img src="/images/05LedgerGifWeb.gif">
+					<img src="/images/05LedgerGifWebLoop.gif">
 			</div>
 			<div class="row description center">
 				<div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-12 col-sm-12">
@@ -185,14 +217,60 @@ layout: 'default'
 		</div>
 	</section>
 
-	<section class="purple">
+	<section class="backstory">
+	</section>
+
+	<section class="purple sm center">
 		<div class="container">
 			<%- @partial('backstory') %>
 		</div>
 	</section>
 
+	<section class="dark sm">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<h1>CXEMA</h1>
+				</div>
+			</div>
+			<div class="row description center">
+				<div id="russian" class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-12 col-sm-12">
+					<%- @partial('intro-russian') %>
+				</div>
+			</div>
+		</div>
+	</section>
 
-	<section class="blue center">
+	<section id="contact" class="black sm">
+
+			<iframe id="itch" frameborder="0" src="https://itch.io/embed/155811?border_width=0&amp;bg_color=444&amp;fg_color=ffffff&amp;link_color=eecbb6&amp;border_color=444" width="550" height="165"></iframe>
+
+			<div class="title-sm">
+				CHANNELS
+			</div>
+			<a href="https://www.youtube.com/watch?v=KV2j-PAi2fg">
+				<h2>
+				YOUTUBE
+				</h2>
+			</a>
+			<a href="https://twitter.com/patternist3">
+				<h2>
+				TWITTER
+				</h2>
+			</a>
+			<a href="https://instagram.com/patternist3">
+				<h2>
+				INSTAGRAM
+				</h2>
+			</a>
+			<a href="mailto:contact@pattern.ist">
+				<h2>
+				CONTACT@PATTERN.IST
+				</h2>
+			</a>
+	</section>
+
+	<section class="blue center sm">
 		<div class="container">
 			<%- @partial('credits') %>
 		</div>
