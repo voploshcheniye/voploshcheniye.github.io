@@ -34,7 +34,7 @@ layout: 'default'
 
 			<iframe id="itch" frameborder="0" src="https://itch.io/embed/155811?border_width=0&amp;bg_color=444&amp;fg_color=ffffff&amp;link_color=eecbb6&amp;border_color=444" width="550" height="165"></iframe>
 
-			<div class="title-sm">
+			<div class="title-channels">
 				CHANNELS
 			</div>
 			<a href="https://www.youtube.com/watch?v=KV2j-PAi2fg">
