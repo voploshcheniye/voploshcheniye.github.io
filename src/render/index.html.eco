@@ -28,3 +28,33 @@ layout: 'default'
 			</div>
 		</div>
 	</section>
+
+	
+	<section id="contact" class="black sm">
+
+			<iframe id="itch" frameborder="0" src="https://itch.io/embed/155811?border_width=0&amp;bg_color=444&amp;fg_color=ffffff&amp;link_color=eecbb6&amp;border_color=444" width="550" height="165"></iframe>
+
+			<div class="title-sm">
+				CHANNELS
+			</div>
+			<a href="https://www.youtube.com/watch?v=KV2j-PAi2fg">
+				<h2>
+				YOUTUBE
+				</h2>
+			</a>
+			<a href="https://twitter.com/patternist3">
+				<h2>
+				TWITTER
+				</h2>
+			</a>
+			<a href="https://instagram.com/patternist3">
+				<h2>
+				INSTAGRAM
+				</h2>
+			</a>
+			<a href="mailto:contact@pattern.ist">
+				<h2>
+				CONTACT@PATTERN.IST
+				</h2>
+			</a>
+	</section>
