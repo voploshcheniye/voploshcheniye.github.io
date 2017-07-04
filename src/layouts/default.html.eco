@@ -51,7 +51,7 @@
 				<img class="dial-ring" src="/images/dial-ring-rg-horiz-gameplay.png">
 
 			</a>
-			<a href="#trade">
+			<a href="#research">
 				<img class="dial-ring" src="/images/dial-ring-rg-horiz-research.png">
 			</a>
 			<a href="#backstory">
@@ -66,11 +66,11 @@
 			<a href="#gameplay">
 				<img class="dial-ring" src="/images/dial-ring-sm-horiz-gameplay.png">
 			</a>
-			<a href="#trade">
-				<img class="dial-ring" src="/images/dial-ring-sm-horiz-research.png">
+			<a href="#research">
+				<img class="dial-ring" src="/images/dial-sm-hornaveres.png">
 			</a>
 			<a href="#backstory">
-				<img class="dial-ring" src="/images/dial-ring-sm-horiz-narrative.png">
+				<img class="dial-ring" src="/images/dial-sm-hornave.png">
 			</a>
 			<a href="#contact">
 				<img class="dial-ring" src="/images/dial-ring-sm-horiz-download.png">
