@@ -40,13 +40,14 @@ docpadConfig = {
 			# Styles
 			styles: [
 				"//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-				"//fonts.googleapis.com/css?family=Poppins:700|Rajdhani:400,700|Lato:400,700|Roboto"
+				"//fonts.googleapis.com/css?family=Poppins:700|Rajdhani:400,700|Lato:400,700|Roboto:400"
 				"/styles/style.css"
 			]
 
 			# Scripts
 			scripts: [
 				"//cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"
+				"//code.jquery.com/ui/1.12.1/jquery-ui.min.js"
 				"//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"
 				"//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
 				"/scripts/jquery-ripples.js"
