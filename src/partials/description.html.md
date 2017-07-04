@@ -2,6 +2,6 @@ Patternist is a location-based, augmented reality exploration game that allows y
 
 Patternist is a world beckoning you to play.
 
-Download the desktop demo [here](http://patternist.itch.io/game), and look for the app launch on Android and iOS this week.
+Download the desktop demo [here](http://patternist.itch.io/game), and look for the app on iOS today and on Android this week.
 
 

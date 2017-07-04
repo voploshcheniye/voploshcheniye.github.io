@@ -72,7 +72,6 @@ section {
 	}
 }
 
-
 /*******************
 Typography
 *******************/
@@ -110,10 +109,10 @@ Typography
 	-webkit-text-stroke-width: 3px;
     -webkit-text-stroke-color: #FFF;
 	.medium-viewport({
-		font-size: 72px;
+		font-size: 60px;
 	});
 	.small-viewport({
-		font-size: 48px;
+		font-size: 32px;
 	});
 	margin: 0;
 	padding: 0;
@@ -134,10 +133,11 @@ Typography
 		font-size: 34px;
 	});
 	.small-viewport({
-		font-size: 24px;
+		font-size: 20px;
 	});
 }
 
+<<<<<<< HEAD
 .title-channels {
 	font-family: 'Neou Bold';
 	font-size: 54px;
@@ -157,6 +157,36 @@ Typography
 	});
 }
 
+
+h2 {
+	.small-viewport({
+		font-size: 22px;
+	});
+}
+
+#contact {
+	.title-sm {
+		margin-top: 50px !important;
+		margin-bottom: 25px !important;
+	}
+	iframe {
+		padding-bottom: 50px;
+	}
+}
+
+#contact-russia {
+	p, h1, a {
+		color: #FFF;
+	}
+	#russian-text {
+		p {
+			color: #FFF !important;
+		}
+	}
+	iframe {
+		padding-bottom: 50px;
+	}
+}
 
 h1 {
 	font-family: 'Neou Bold';
@@ -203,6 +233,9 @@ p {
 		color: @blue-1;
 		text-decoration: underline;
 	}
+	.small-viewport({
+		font-size: 18px;
+	});
 }
 
 
@@ -283,6 +316,67 @@ section.feature-4 {
 	height: 100%;
 }
 
+section.feature-5 {
+	background: url(/images/texture_scrollium.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-size: cover;         /* Generic*/
+    vertical-align: middle;
+    z-index: 10;
+	height: 100%;
+}
+
+section.backstory {
+	background: url(/images/backstory.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-size: cover;         /* Generic*/
+    vertical-align: middle;
+    z-index: 10;
+	height: 100%;
+}
+
+section.backstory-2 {
+	background: url(/images/SatOps-Landscapes-1.png) no-repeat center center fixed;
+    -webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-size: cover;         /* Generic*/
+    vertical-align: middle;
+    z-index: 10;
+	height: 100%;
+}
+
+section.backstory-3 {
+	background: url(/images/SatOps-05.png) no-repeat center center fixed;
+    -webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-size: cover;         /* Generic*/
+    vertical-align: middle;
+    z-index: 10;
+	height: 100%;
+}
+
+.row-spacing {
+	margin-bottom: 50px;
+}
+
+#urban {
+	p {
+		color: #444;
+	}
+	h2 {
+		color: @blue-1;
+	}
+
+}
+
+.building {
+	margin-bottom: 50px;
+}
 
 
 section.center {
@@ -324,7 +418,7 @@ section.blue {
 section.purple {
 	background: @purple-1;
 	p {
-		color: @beige-5;
+		color: #FFF;
 	}
 }
 
@@ -333,6 +427,9 @@ section.purple {
 	width: 80%;
 	margin: 0 auto;
 	padding: 50px 0;
+	.small-viewport({
+		width: 80%;
+	});
 }
 
 .description {
@@ -353,12 +450,22 @@ section.purple {
 	p {
 		color: #444;
 	}
+	img {
+		.small-viewport({
+			margin-bottom: 50px;
+		});
+	}
 }
+
 
 #cards {
 	img {
 		width: 80%;
+		height: auto;
 		max-width: 80vw;
+		.small-viewport({
+			padding-bottom: 60px;
+		});
 	}
 	p {
 		color: #444;
@@ -373,15 +480,51 @@ section.purple {
 	p {
 		color: #444;
 	}
+	.small-viewport({
+		h1 {
+			padding-bottom: 25px;
+		}
+		img {
+			padding-bottom: 50px;
+		}
+	});
+}
+
+#network-trade {
+	padding-top: 50px;
+	padding-bottom: 0;
 }
 
 .row-padded {
 	padding: 100px 0;
+	.small-viewport({
+		padding: 0;
+		padding-bottom: 50px;
+	});
 }
 
 #ledger {
 	img {
 		max-height: 300px;
+		.small-viewport({
+			padding-bottom: 25px;
+		});
+	}
+}
+
+#contact {
+	.title-sm {
+		padding: 0;
+	}
+	a, a:hover, a:active, a:focus, a:visited {
+		text-decoration: none;
+	}
+}
+
+#russian-text {
+	p {
+		font-family: 'Roboto';
+		font-weight: 400;
 	}
 }
 
@@ -395,20 +538,23 @@ UI
 	right: @ui-padding;
 	width: auto;
 	img {
-		display: inline;
-		margin-left: -10px;
+		display: block;
+		margin-top: -10px;
 		cursor: pointer;
+		.small-viewport({
+			margin-top: -5px;
+		});
 	}
 }
 
 .dial-ring {
   position: relative;
   top: 0;
-  transition: top ease 0.5s;
+  transition: left ease 0.5s;
 }
 
 .dial-ring:hover {
-  top: -30px;
+  left: -30px;
 }
 
 .phone {
@@ -416,7 +562,7 @@ UI
 	border-radius: 10px;
 	box-shadow: 2px 2px 7px #333;
 	.small-viewport({
-		margin-bottom: 50px;
+		margin-bottom: 60px;
 	});
 }
 
@@ -455,4 +601,55 @@ UI
 	bottom: @ui-padding;
 	left: @ui-padding;
 	width: auto;
+}
+
+#ui-top {
+	position: fixed;
+	top: 25px;
+	width: 70vw;
+	height: auto;
+	left: 50%;
+    transform: translateX(-50%);
+}
+
+#gameplay-video {
+	h1 {
+		color: #000;
+		padding-bottom: 25px;
+	}
+}
+
+.backstory-pdf {
+	padding-top: 75px;
+	h2 {
+		color: @blue-1;
+	}
+	a, a:hover, a:visited, a:focus {
+		text-decoration: none;
+		color: @blue-1;
+	}
+	.small-viewport({
+		padding-top: 25px;
+	});
+}
+
+#reveal {
+	.small-viewport({
+		h1 {
+			padding-bottom: 25px;
+		}
+		img {
+			padding-bottom: 50px;
+		}
+	});
+}
+
+.urban {
+	img {
+		box-shadow: none;
+	}
+}
+
+.apple {
+	margin-top: 100px;
 }

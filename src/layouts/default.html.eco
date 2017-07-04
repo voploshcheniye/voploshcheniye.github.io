@@ -44,6 +44,58 @@
 </head>
 <body>
 
+	<!-- User Interface -->
+	<div class="ui">
+		<div class="dials hidden-sm hidden-xs">
+			<a href="#gameplay">
+				<img class="dial-ring" src="/images/dial-ring-rg-horiz-gameplay.png">
+
+			</a>
+			<a href="#trade">
+				<img class="dial-ring" src="/images/dial-ring-rg-horiz-research.png">
+			</a>
+			<a href="#backstory">
+				<img class="dial-ring" src="/images/dial-ring-rg-horiz-narrative.png">
+			</a>
+			<a href="#contact">
+				<img class="dial-ring" src="/images/dial-ring-rg-horiz-download.png">
+			</a>
+		</div>
+
+		<div class="dials hidden-lg hidden-md">
+			<a href="#gameplay">
+				<img class="dial-ring" src="/images/dial-ring-sm-horiz-gameplay.png">
+			</a>
+			<a href="#trade">
+				<img class="dial-ring" src="/images/dial-ring-sm-horiz-research.png">
+			</a>
+			<a href="#backstory">
+				<img class="dial-ring" src="/images/dial-ring-sm-horiz-narrative.png">
+			</a>
+			<a href="#contact">
+				<img class="dial-ring" src="/images/dial-ring-sm-horiz-download.png">
+			</a>
+		</div>
+
+		<div class="hidden-sm hidden-xs">
+			<img id="ui-right" src="/images/grid_right.png">
+			<img id="ui-left" src="/images/grid_left.png">
+			<img id="ui-top" src="/images/grid_top.png">
+		</div>
+
+		<a href="#russian">
+		<div class="hidden-md hidden-sm hidden-xs">
+			<img id="ui-wasd" src="/images/grid_toggle_ru.png">
+		</div>
+		</a>	 
+
+		<a href="#russian">
+		<div class="hidden-lg">
+			<img id="ui-wasd" src="/images/grid_toggle_sm_ru.png">
+		</div>
+		</a>
+
+	</div>
 
 	<%- @content %>
 
