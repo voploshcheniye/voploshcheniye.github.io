@@ -1,1 +1,1 @@
-## There are seven fundamental elements in the Patternist world&#8212; ##
+## There are seven fundamental elements in the Patternist world ##
