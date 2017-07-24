@@ -6,6 +6,10 @@ jQuery(document).ready(function($) {
 		perturbance: 0.005,
 	});
 
+	$("img.lazy").lazyload({
+    	effect : "fadeIn"
+	});
+
 	var $root = $('html, body');
 
 	// Select all links with hashes
