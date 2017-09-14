@@ -49,57 +49,55 @@
 </head>
 <body>
 
-	<!-- User Interface -->
-	<div class="ui">
-		<div class="dials hidden-sm hidden-xs">
-			<a href="#gameplay">
-				<img class="dial-ring" src="/images/dial-ring-rg-horiz-gameplay.png">
 
-			</a>
-			<a href="#research">
-				<img class="dial-ring" src="/images/dial-ring-rg-horiz-research.png">
-			</a>
-			<a href="#backstory">
-				<img class="dial-ring" src="/images/dial-ring-rg-horiz-narrative.png">
-			</a>
-			<a href="#contact">
-				<img class="dial-ring" src="/images/dial-ring-rg-horiz-download.png">
-			</a>
+	<section class="black landing parent-element">
+		<nav class="navbar">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="container">
+
+				<div class="navbar-header">
+					<button class="navbar-toggle" data-target="#navbarCollapse" data-toggle="collapse" type="button"><span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button> <a class="navbar-brand" href="#">Patternist</a>
+				</div>
+				<!-- Collection of nav links and other content for toggling -->
+
+
+				<div class="collapse navbar-collapse" id="navbarCollapse">
+					<ul class="nav navbar-nav">
+						<li class="active">
+							<a href="#">Origin Story</a>
+						</li>
+
+						<li>
+							<a href="#">Features</a>
+						</li>
+
+						<li>
+							<a href="#">Gameplay</a>
+						</li>
+
+						<li>
+							<a href="#">Team</a>
+						</li>
+					</ul>
+
+
+					<ul class="nav navbar-nav navbar-right">
+						<li>
+							<a href="#download">Download</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<div class="container element">
+
+			<div class="title">
+				PATTERNIST
+			</div>
+
 		</div>
-
-		<div class="dials hidden-lg hidden-md">
-			<a href="#gameplay">
-				<img class="dial-ring" src="/images/dial-ring-sm-horiz-gameplay.png">
-			</a>
-			<a href="#research">
-				<img class="dial-ring" src="/images/dial-sm-hornaveres.png">
-			</a>
-			<a href="#backstory">
-				<img class="dial-ring" src="/images/dial-sm-hornave.png">
-			</a>
-			<a href="#contact">
-				<img class="dial-ring" src="/images/dial-ring-sm-horiz-download.png">
-			</a>
-		</div>
-
-		<div class="hidden-lg hidden-md hidden-sm hidden-xs">
-			<img id="ui-right" src="/images/grid_right.png">
-			<img id="ui-left" src="/images/grid_left.png">
-		</div>
-
-		<a href="#russian">
-		<div class="hidden-md hidden-sm hidden-xs">
-			<img id="ui-wasd" src="/images/grid_toggle_ru.png">
-		</div>
-		</a>	 
-
-		<a href="#russian">
-		<div class="hidden-lg">
-			<img id="ui-wasd" src="/images/grid_toggle_sm_ru.png">
-		</div>
-		</a>
-
-	</div>
+	</section>
 
 	<%- @content %>
 

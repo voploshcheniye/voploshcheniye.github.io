@@ -1,367 +1,123 @@
 ---
 layout: 'default'
 ---
-	<section class="feature parent-element">
-		<div class="container element">
 
-			<div class="title">
-				PATTERNIST
-			</div>
-			<h2>
-				At first we thought it was the weather.
-			</h2>
 
+
+<section class="gray left-layout">
+	<div class="container">
+		<h1>
+			Combined<br>
+			Elements<br>
+			Create Alloys
+		</h1>
+
+		<div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
+			<img class="image-fade" src="/images/render_axo.png">
 		</div>
-	</section>
 
-	<section id="trailer-section" class="medium sm">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12">
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/yl-Jlnx4Dho?" frameborder="0" allowfullscreen></iframe>
-				</div>
-			</div>
-			<div class="row center">
-				<div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-12 col-sm-12">
-					<%- @partial('description') %>
-				</div>
-			</div>
-
-<!-- 			<div class="row">
-				<div class="col-lg-5 col-md-5 col-sm-12 col-sm-12">
-					<%- @partial('description') %>
-				</div>
-				<div class="col-lg-6 col-lg-offset-1 col-md-6 col-md-offset-1 col-sm-12 col-xs-12">
-					<div id="trailer">
-						<iframe width="560" height="315" src="https://www.youtube.com/embed/yl-Jlnx4Dho?" frameborder="0" allowfullscreen></iframe>
-					</div>
-				</div>
-			</div> -->
+		<div class="text col-lg-4 col-lg-offset-2 col-md-4 col-md-offset-2 col-sm-12 col-xs-12">
+			<%- @partial('ledger') %>
 		</div>
-	</section>
 
-	<section id="contact" class="black sm">
-		<div class="container">
+	</div>
+</section>
 
-			<h2>
-				GO TO ITCH.IO TO DOWNLOAD FOR DESKTOP 
-			</h2>
+<section class="black center-layout">
+	<div class="container">
+		<h1>
+			Combined<br>
+			Elements<br>
+			Create Alloys
+		</h1>
 
-			<iframe id="itch-1" frameborder="0" src="https://itch.io/embed/155811?border_width=0&amp;bg_color=444&amp;fg_color=ffffff&amp;link_color=eecbb6&amp;border_color=444" width="550" height="165"></iframe>
-
-
-			<a class="apple" href="https://itunes.apple.com/us/app/patternist/id1253626689?mt=8">
-				<h2>
-					CLICK HERE FOR DOWNLOAD FOR iOS
-				</h2>
-			</a>
-
-
-			<div class="title-sm">
-				CHANNELS
-			</div>
-			<a href="https://www.youtube.com/watch?v=KV2j-PAi2fg">
-				<h2>
-				YOUTUBE
-				</h2>
-			</a>
-			<a href="https://twitter.com/patternist3">
-				<h2>
-				TWITTER
-				</h2>
-			</a>
-			<a href="https://instagram.com/patternist3">
-				<h2>
-				INSTAGRAM
-				</h2>
-			</a>
-			<a href="mailto:contact@pattern.ist">
-				<h2>
-				CONTACT@PATTERN.IST
-				</h2>
-			</a>
+		<div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
+			<img src="/images/render_axo.png">
+			<%- @partial('ledger') %>
 		</div>
-	</section>
+	</div>
+</section>
 
-	<section class="feature-2">
-	</section>
+<section class="blue center-layout">
+	<div class="container">
+		<h1>
+			Combined<br>
+			Elements<br>
+			Create Alloys
+		</h1>
 
-	<section class="black sm"><a name="gameplay"> </a>
-		<div class="title-sm">
-			PATTERNIST GAME MECHANICS
+		<div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
+			<img src="/images/render_axo.png">
+			<%- @partial('ledger') %>
 		</div>
-	</section>
+	</div>
+</section>
 
-	<section id="elements" class="dark">
-		<div class="container">
-			<%- @partial('elements') %>
-			<img class="lazy" data-original="/images/elements.png">
-			<%- @partial('urban-attributes') %>
-		</div>
-	</section>
-
-	<section id="detect" class="medium">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12">
-					<h1>Detect, Collect and Combine Elements</h1>
-				</div>
-			</div>
-
-			<div class="row">
-				<div class="col-lg-3 col-md-3 col-sm-12 col-sm-12">
-					<img class="phone lazy" data-original="/images/Interface-FINAL-06-copy.png">
-				</div>
-				<div class="col-lg-3 col-md-3 col-sm-12 col-sm-12">
-					<img class="phone lazy" data-original="/images/Interface-FINAL-02.png">
-				</div>
-				<div class="col-lg-3 col-md-3 col-sm-12 col-sm-12">
-					<img class="phone lazy" data-original="/images/Interface-FINAL-04.png">
-				</div>
-				<div class="col-lg-3 col-md-3 col-sm-12 col-sm-12">
-					<img class="phone lazy" data-original="/images/Interface-FINAL-03.png">
-				</div>
-			</div>
-			<div class="row description center">
-					<p>In AR mode, your smartphone acts like a barometer, a geiger counter and a metal detector all in one, alerting you to Patternist elements inherent in your local area. Whether you’re playing in your neighborhood or your browser, you can collect these symbolic elements ambiently hovering in the environment. 
-					</p>
-			</div>
-		</div>
-	</section>
-
-	<section id="detect" class="black">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12">
-					<h1>Combined Elements Create Alloys</h1>
-				</div>
-			</div>
-
-			<div class="row">
-					<img class="lazy" data-original="/images/alloy_grid.png">
-			</div>
-			<div class="row description center">
-					<p>Alloys are developed by combining pairs of elements collected in a player’s inventory. Each element has generative inputs that influence the form of the alloys they make. For instance, the alloy Lavalite is generated from the elements Macadigen — related to informal parking areas, creates vertical spatial conditions — and Coradium — related to unplanned urban greenery weaves solidity and hollows. When these conditions combine, Lavalite becomes a strange mix of deep trenches and soaring peaks, billowing peaks and empty voids.
-					</p>
-					<p>
-					For details on the alloys, players can consult the Alloy Codex interface shown above to preview which landform characteristics are revealed by each alloy and to find the parent elements of each alloy.
-					</p>
-			</div>
-		</div>
-	</section>
-
-	<section id="cards" class="medium sm">
-		<div class="container">
-			<div class="row">
-					<img class="lazy" data-original="/images/Card-Grid.png">
-			</div>
-			<div class="row description center">
-					<p>There are 21 alloys that can be created by combining different quantities of elements, contained within an alchemy card deck.
-					</p>
-			</div>
-		</div>
-	</section>
-
-	<section id="reveal" class="dark">
-		<div class="container">
-			<div class="row">
-					<h1>AND ALLOYS REVEAL ANOTHER PLANET</h1>
-			</div>
-			<div class="row">
-					<img class="lazy" data-original="/images/city_matrix.gif">
-			</div>
-			<div class="row description center">
-					<%- @partial('gameplay-reveal') %>
-			</div>
-		</div>
-	</section>
-
-	<section id="gameplay-video" class="feature-3 parent-element">
-		<div class="element">
-			<h1>
-				PATTERNIST GAMEPLAY
+<section class="feature-3 left-layout">
+	<div class="gray-overlay">
+	</div>
+	<div class="container">
+		<div class="col-lg-4 col-lg-offset-6 col-md-4 col-md-offset-6 col-sm-12 col-xs-12">
+			<h1 class="right-title">
+				Combined<br>
+				Elements<br>
+				Create Alloys
 			</h1>
-			<iframe width="853" height="480" src="https://www.youtube.com/embed/HsBw06dVCVU?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 		</div>
-	</section>
 
-	<section id="trade" class="blue sm">
-	<a name="trade"></a>
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12">
-					<h1>Multiplayer Trading</h1>
-				</div>
-			</div>
-			<div class="row row-padded">
-				<div class="col-lg-5 col-md-5 col-sm-12 col-sm-12">
-					<img class="lazy" data-original="/images/05tradegif.gif">
-				</div>
-				<div class="col-lg-6 col-lg-offset-1 col-md-6 col-lg-offset-1 col-sm-12 col-sm-12">
-					<%- @partial('gameplay-trade') %>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-lg-6 col-md-6 col-sm-12 col-sm-12">
-					<%- @partial('trade-2') %>
-				</div>
-				<div class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1 col-sm-12 col-sm-12">
-					<img class="lazy" id="network-trade" data-original="/images/network-trade.png">
-				</div>
-			</div>
+		<div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
+			<img src="/images/render_axo.png">
 		</div>
-	</section>
 
-	<section id="ledger" class="medium">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12">
-					<h1>GEO-LOCATED DISTRIBUTED LEDGER</h1>
-				</div>
-			</div>
-			<div class="row">
-					<img class="lazy" data-original="/images/05LedgerGifWebLoop.gif">
-			</div>
-			<div class="row description center">
-				<div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-12 col-sm-12">
-					<%- @partial('ledger') %>
-				</div>
-			</div>
+		<div class="text col-lg-4 col-lg-offset-2 col-md-4 col-md-offset-2 col-sm-12 col-xs-12">
+			<%- @partial('ledger') %>
 		</div>
-	</section>
 
-	<section class="feature-4">
-	</section>
+	</div>
+</section>
 
-	<section class="black sm"><a name="research"> </a>
-		<div class="title-sm">
-			URBAN RESEARCH
+
+<section class="gray left-layout">
+	<div class="container">
+		<div class="col-lg-4 col-lg-offset-6 col-md-4 col-md-offset-6 col-sm-12 col-xs-12">
+			<h1 class="right-title">
+				Combined<br>
+				Elements<br>
+				Create Alloys
+			</h1>
 		</div>
-	</section>
 
-	<section id="urban" class="medium urban">
-		<div class="container">
-			<div class="row row-spacing description center">
-				<p>
-				Each 100x100m tile juxtaposes alloys that are available in the city underneath to produce unfamiliar topologies on the hovering surface, translating the familiar spaces of your city into a warped world.
-				</p>
-			</div>
-			<div class="row">
-				<div class="col-lg-4 col-md-4 col-sm-12 col-sm-12 building">
-					<img class="lazy" data-original="/images/urban_1.png">
-					<h2>
-						KRUSCHEVKI
-					</h2>
-				</div>
-				<div class="col-lg-4 col-md-4 col-sm-12 col-sm-12 building">
-					<img class="lazy" data-original="/images/urban_2.png">
-					<h2>
-						MOSCOW CITY
-					</h2>
-				</div>
-				<div class="col-lg-4 col-md-4 col-sm-12 col-sm-12 building">
-					<img class="lazy" data-original="/images/urban_3.png">
-					<h2>
-						BOLOTNYY OSTROV
-					</h2>
-				</div>
-			</div>
-			<div class="row description center">
-					<p> 
-					What observations will Patternist inherit from Moscow City, where the tallest commercial towers in Europe sit in a sea of parking and security gates? Or 100 meters away, in a uniform residential neighbourhood, of iconic soviet Kruschevki, slated for imminent demolition? Or just at the post-industrial adaptive factory district of Bolotniyy Ostrov, at the bridge beside Strelka Institute?
-					</p>
-					<p>
-					Walking from neighborhood to neighborhood, gamers will be able to see scales of complexity in map pieces that can be played upon, each one a unique transcription of an augmentation on that area. The game becomes a method to blend realities, weaving them together in ways that allow players to navigate both worlds simultaneously
-					</p>
+		<div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
+			<img src="/images/render_axo.png">
+		</div>
+
+		<div class="text col-lg-4 col-lg-offset-2 col-md-4 col-md-offset-2 col-sm-12 col-xs-12">
+			<%- @partial('ledger') %>
+		</div>
+
+	</div>
+</section>
+
+<a name="download"></a>
+<section class="black left-layout">
+	<div class="container">
+		<h1>Download</h1>
+
+		<div>
+			<div class="btn-group" role="group">
+				<button class="btn btn-primary">Desktop</button>
+				<button type="button" class="btn btn-secondary">Mac OS</button>
+				<button type="button" class="btn btn-secondary">Windows</button>
 			</div>
 		</div>
-	</section>
 
-	<section class="feature-5 parent-element">
-		<img class="element lazy" data-original="/images/render_axo.png">
-	</section>
-
-
-	<section class="black sm">
-	<a name="backstory"></a>
-		<div class="title-sm">
-			PATTERNIST ORIGIN STORY
-		</div>
-	</section>
-
-	<section class="backstory">
-	</section>
-
-	<section class="backstory-2">
-	</section>	
-
-	<section class="purple sm center">
-		<div class="container">
-			<%- @partial('backstory') %>
-
-			<div class="backstory-pdf">
-				<a href="/images/Exoplanet_Mission_Documents.pdf">
-					<h2>
-						DOWNLOAD EXOPLANET MISSION DOCUMENTS
-					</h2>
-				</a>
+		<div>
+			<div class="btn-group" role="group">
+				<button class="btn btn-primary">Mobile</button>
+				<button type="button" class="btn btn-secondary">iOS</button>
+				<button type="button" class="btn btn-secondary">Android</button>
 			</div>
 		</div>
-	</section>
 
-	<section class="backstory-3">
-	</section>
-
-
-	<section id="contact-russia" class="black sm">
-	<a name="russian"></a>
-		<div class="container">
-			<div class="col-lg-6 col-md-6 col-sm-12 col-sm-12">
-				<div id="russian-text">
-					<h1>CXEMA</h1>
-					<%- @partial('intro-russian') %>
-				</div>
-			</div>
-			<div class="col-lg-6 col-md-6 col-sm-12 col-sm-12">
-
-				<a class="apple" href="https://patternist.itch.io/game">
-					<h2>
-						DOWNLOAD FOR DESKTOP
-					</h2>
-				</a>
-
-				<a class="apple" href="https://itunes.apple.com/us/app/patternist/id1253626689?mt=8">
-					<h2>
-						DOWNLOAD FOR iOS
-					</h2>
-				</a>
-
-				<a href="https://www.youtube.com/watch?v=KV2j-PAi2fg">
-					<h2>
-					YOUTUBE
-					</h2>
-				</a>
-				<a href="https://twitter.com/patternist3">
-					<h2>
-					TWITTER
-					</h2>
-				</a>
-				<a href="https://instagram.com/patternist3">
-					<h2>
-					INSTAGRAM
-					</h2>
-				</a>
-				<a href="mailto:contact@pattern.ist">
-					<h2>
-					CONTACT@PATTERN.IST
-					</h2>
-				</a>
-			</div>
-		</div>
-	</section>
-
-	<section class="blue center sm">
-		<div class="container">
-			<%- @partial('credits') %>
-		</div>
-	</section>
+	</div>
+</section>
