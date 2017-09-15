@@ -1,9 +1,9 @@
 jQuery(document).ready(function($) {
 
-	$('.feature').ripples({
+	$('.ripples').ripples({
 		resolution: 100,
 		dropRadius: 150,
-		perturbance: 0.005,
+		perturbance: 0.05,
 	});
 
 	$("img.lazy").lazyload({

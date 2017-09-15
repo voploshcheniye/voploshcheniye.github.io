@@ -10,7 +10,13 @@
 @blue-1: #0049ff;
 
 @ui-padding: 25px;
-@ui-padding-wide: 70px;
+
+@navbar-width: 72vw;
+@navbar-spacing: 12vw;
+
+@margin-inverse-lg: -200px;
+@margin-inverse-md: -100px;
+@margin-inverse-sm: -50px;
 
 body,html {
 	background: transparent;
@@ -18,13 +24,6 @@ body,html {
 	height: 100%;
 	margin: 0;
 	padding: 0;
-}
-
-iframe {
-	display: block;
-	margin: 0 auto;
-	max-width: 80vw;
-	max-height: 45vw;
 }
 
 /*******************
@@ -41,16 +40,6 @@ Typography
 		url('/fonts/Neou-Bold.svg#Neou-Bold') format('svg');
 	font-weight: bold;
 	font-style: normal;
-}
-
-@font-face {
-	font-family:"Vera Humana 95";
-	src:url("/fonts/verah.eot?") format("eot"), 
-	url("/fonts/verah.woff") format("woff"),
-	url("/fonts/verah.ttf") format("truetype"),
-	url("/fonts/verah.svg#VeraHumana95") format("svg");
-	font-weight:normal;
-	font-style:normal;
 }
 
 /* Patternist title */
@@ -81,7 +70,7 @@ Typography
 	text-align: center;
 	color: transparent;
 	text-align: center;
-	padding: 100px 0;
+	padding: 0;
 	-webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #FFF;
 	.medium-viewport({
@@ -94,8 +83,9 @@ Typography
 
 
 h1 {
-	font-family: 'Neou Bold';
+	font-family: 'Archivo';
 	font-size: 92px;
+	letter-spacing: -6px;
 	color: #FFF;
 	padding: 0;
 	margin: 0;
@@ -103,82 +93,88 @@ h1 {
 		font-size: 34px;
 	});
 	.small-viewport({
-		font-size: 24px;
+		font-size: 34px;
 	});
 }
 
-.center-layout {
-	h1 {
-		text-align: center;
-		margin-bottom: -86px;
-	}
-}
-
-.left-layout {
-	.text {
-		margin-top: -150px;
-	}
-}
-
-.image-fade {
-	opacity: 0.5;
-}
-
-.right-title {
-	margin-bottom: -200px;
-}
-
-a:hover {
-	h2 {
-		text-decoration: none;
-	}
-}
-
-.center {
-	text-align: center;
-}
-
 p, a, blockquote, ul, li {
-	font-family: 'Vera Humana 95';
+	font-family: 'Heebo';
+	font-weight: 300;
 }
 
 h2,h3,h4,h5,h6 {
-	font-family: 'Rajdhani';
+	font-family: 'Archivo';
 	font-weight: 500;
 	color: #FFF;
 	text-transform: uppercase;
+	letter-spacing: -1px;
 	z-index: 98;
 }
 
 p {
-	font-size: 22px;
-	font-weight: 300;
+	font-size: 18px;
+	font-weight: 100;
 	color: #FFF;
 	z-index: 100;
 	a {
 		text-decoration: underline;
 	}
 	.small-viewport({
-		font-size: 18px;
+		font-size: 16px;
 	});
+}
+
+.flesh {
+	color: @beige-1;
+}
+
+/*******************
+Components
+*******************/
+
+.container {
+	display: block;
+	width: 85vw;
+	margin: 0 auto;
+	padding: (@ui-padding*2) 0;
+	.small-viewport({
+		width: 90vw;
+	});
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	z-index: 99;
+	margin-bottom: @ui-padding;
+	.small-viewport({
+		margin-bottom: @ui-padding/2;
+	});
+}
+
+img.lazy {
+	background: transparent;
+}
+
+iframe {
+	display: block;
+	margin: 0 auto;
+	max-width: 80vw;
+	max-height: 45vw;
+}
+
+.ytp-watermark .yt-uix-sessionlink .ytp-exp {
+	visibility: hidden !important;
+}
+
+.ytp-exp.ytp-watermark {
+	opacity: 0 !important;
 }
 
 
 /*******************
 Sections
 *******************/
-
-.parent-element {
-  -webkit-transform-style: preserve-3d;
-  -moz-transform-style: preserve-3d;
-  transform-style: preserve-3d;
-}
-
-.element {
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-}
 
 section {
 	padding: 0;
@@ -199,13 +195,25 @@ section.gray {
 	background: #444;
 }
 
+section.blue {
+	background: @blue-1;
+}
+
+.gray-overlay {
+    background-color: rgba(50, 50, 50, 0.8);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
 section.landing {
     -webkit-background-size: cover; /* For WebKit*/
     -moz-background-size: cover;    /* Mozilla*/
     -o-background-size: cover;      /* Opera*/
     background-size: cover;         /* Generic*/
     vertical-align: middle;
-	height: 100%;-align: middle;
+	height: 100%;
+    border-bottom: thick solid #fff;
 }
 
 section.feature {
@@ -262,43 +270,60 @@ section.feature-5 {
 	height: 100%;
 }
 
-section#ledger {
-	background: url(/images/10builduprender2.png) no-repeat center center fixed;
-    -webkit-background-size: cover; /* For WebKit*/
-    -moz-background-size: cover;    /* Mozilla*/
-    -o-background-size: cover;      /* Opera*/
-    background-size: cover;         /* Generic*/
-    vertical-align: middle;
-    z-index: 10;
-	height: 100%;
+.trailer {
+	margin-top: @margin-inverse-md;
+	margin-bottom: @ui-padding*2;
+	// box-shadow: 3px 3px 20px 2px rgba(255,255,255, .5);
 }
 
-.gray-overlay {
-    background-color: rgba(50, 50, 50, 0.8);
-    position: absolute;
-    width: 100%;
-    height: 100%;
-}
 
-section.center {
-	p {
+/******************
+Layouts
+******************/
+
+.layout-center {
+	h1 {
 		text-align: center;
+		margin-bottom: @margin-inverse-md;
+		.small-viewport({
+			margin-bottom: @margin-inverse-sm/2;
+		});
 	}
 }
 
-section.blue {
-	background: @blue-1;
+.layout-left {
+	.text {
+		margin-top: @margin-inverse-lg;
+		.small-viewport({
+			margin-top: 0;
+		});
+	}
 }
 
-.container {
-	display: block;
-	width: 85%;
-	margin: 0 auto;
-	padding: 50px 0;
-	.small-viewport({
-		width: 90%;
-	});
+.title-right {
+	margin-bottom: @margin-inverse-md;
 }
+
+.image-fade {
+	opacity: 0.5;
+}
+
+.center {
+	text-align: center;
+}
+
+.parent-element {
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.element {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
 
 /***************
 NAVBAR
@@ -307,17 +332,22 @@ NAVBAR
 .navbar {
 	background: transparent;
 	margin: 0;
-	padding: 25px auto;
+	padding: @ui-padding auto;
 	.container {
-		padding:0;
-		width: 60vw;
+		padding: 0;
+		width: @navbar-width;
+		.small-viewport({
+			width: 90vw;
+		});
 	}
 }
 
 .nav > li > a {
 	background-color: #000;
     border-top: thick solid #000;
-    color: #fff;
+    color: #FFF !important;
+    font-size: 14px;
+	font-weight: 700;
 }
 
 .nav > li > a:hover, .nav > li > a:focus, .nav > li > a:active {
@@ -328,24 +358,33 @@ NAVBAR
 
 .navbar-nav {
 	li {
-		width: 10vw;
+		width: @navbar-spacing;
+		.small-viewport({
+			width: auto;
+		});
 	}
 }
 
 .navbar-brand {
-	width: 10vw;
+	font-family: 'Neou Bold';
+	color: #fff !important;
+	letter-spacing: 2px;
+	width: @navbar-spacing;
 	border-top: thick solid #000;
 	&:hover {
 		border-top: thick solid #fff;
 	}
-}
-a.navbar-brand {
-	color: #fff;
-}
-
-img {
-	z-index: 99;
-	max-width: 100%;
-	margin-bottom: 25px;
+	.small-viewport({
+		width: auto;
+	});
 }
 
+.navbar-toggle {
+	padding-top: 14px;
+	padding-bottom: 0;
+	border: none;
+}
+
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:active {
+	background: transparent;
+}

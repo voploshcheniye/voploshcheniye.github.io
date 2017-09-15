@@ -40,7 +40,7 @@ docpadConfig = {
 			# Styles
 			styles: [
 				"//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-				"//fonts.googleapis.com/css?family=Poppins:700|Rajdhani:400,700|Lato:400,700|Roboto:400"
+				"//fonts.googleapis.com/css?family=Archivo|Heebo:300,400"
 				"/styles/style.css"
 			]
 

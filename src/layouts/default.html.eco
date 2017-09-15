@@ -51,32 +51,35 @@
 
 
 	<section class="black landing parent-element">
-		<nav class="navbar">
+		<nav class="navbar navbar-inverse">
 			<!-- Brand and toggle get grouped for better mobile display -->
 			<div class="container">
 
 				<div class="navbar-header">
-					<button class="navbar-toggle" data-target="#navbarCollapse" data-toggle="collapse" type="button"><span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button> <a class="navbar-brand" href="#">Patternist</a>
+					<button class="navbar-toggle" data-target="#navbarCollapse" data-toggle="collapse" type="button"><span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button>
+
+
+					<a class="navbar-brand active" href="/">PATTERNIST</a>
 				</div>
 				<!-- Collection of nav links and other content for toggling -->
 
 
 				<div class="collapse navbar-collapse" id="navbarCollapse">
 					<ul class="nav navbar-nav">
-						<li class="active">
-							<a href="#">Origin Story</a>
+						<li>
+							<a href="#story">Origin Story</a>
 						</li>
 
 						<li>
-							<a href="#">Features</a>
+							<a href="#features">Features</a>
 						</li>
 
 						<li>
-							<a href="#">Gameplay</a>
+							<a href="#gameplay">Gameplay</a>
 						</li>
 
 						<li>
-							<a href="#">Team</a>
+							<a href="#team">Team</a>
 						</li>
 					</ul>
 
