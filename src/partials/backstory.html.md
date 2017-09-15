@@ -1,5 +1,5 @@
-In the early years of the 21st century, innumerable attempts were being made to document in detail the newly discovered exoplanets in our corner of the universe.  Chief among them was the dense and potentially inhabitable Patternist system.  Through the efforts of a few private corporations, a wide net of nano-satellites were launched towards the system aboard laser-directed light sails.  What they would discover upon arrival was anyone’s guess.
+In the early years of the 21st century, innumerable attempts were being made to document in detail the newly discovered exoplanets in our corner of the universe.  Chief among them was the dense and potentially inhabitable Patternist system. What they would discover upon arrival was anyone’s guess.
+ 
+When the first transmissions were received, the existence of the Patternist Observation Mission was leaked to the public, along with the transmissions' cryptographic protocol.
 
-By the time eighty percent of the humankind’s earthbound populations had migrated to urban areas, the satellites had been set to arrive in the system and begin to transmit their findings.  At this point, a vast array of terrestrial and extraterrestrial sensor imaging equipment had been deployed to capture and codify the massive amounts of data that were coming into view.  
-
-As the transmissions began, their existence, and their protocols, were leaked. The paranoia surrounding the existing earth observation missions extended to the Patternist Observations Mission. That's when the events started happening. 
+That's when the events began. 

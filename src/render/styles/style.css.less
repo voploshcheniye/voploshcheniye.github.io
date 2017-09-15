@@ -14,9 +14,9 @@
 @navbar-width: 72vw;
 @navbar-spacing: 12vw;
 
-@margin-inverse-lg: -200px;
+@margin-inverse-lg: -150px;
 @margin-inverse-md: -100px;
-@margin-inverse-sm: -50px;
+@margin-inverse-sm: -25px;
 
 body,html {
 	background: transparent;
@@ -106,8 +106,7 @@ h2,h3,h4,h5,h6 {
 	font-family: 'Archivo';
 	font-weight: 500;
 	color: #FFF;
-	text-transform: uppercase;
-	letter-spacing: -1px;
+	letter-spacing: -1.5px;
 	z-index: 98;
 }
 
@@ -163,14 +162,41 @@ iframe {
 	max-height: 45vw;
 }
 
-.ytp-watermark .yt-uix-sessionlink .ytp-exp {
-	visibility: hidden !important;
+.btn-group {
+	border-radius: 0;
+	margin: @ui-padding 0;
 }
 
-.ytp-exp.ytp-watermark {
-	opacity: 0 !important;
+.btn {
+	padding: @ui-padding/2 @ui-padding;
+	font-family: 'Heebo';
 }
 
+.btn-primary {
+	background: #FFF;
+	color: #000;
+    border: medium solid #fff;
+    border-radius: 0;
+    &:hover, &:active, &:focus {
+    	background-color: #FFF !important;
+    	border: medium solid #fff !important;
+    	color: #000 !important;
+    	cursor: auto;
+    	outline: none !important;
+    }
+}
+
+.btn-secondary {
+	background: transparent;
+	color: #FFF;
+    border: medium solid #fff;
+    border-radius: 0;
+    &:hover, &:active, &:focus {
+    	background: #FFF !important;
+    	color: #000 !important;
+    	outline: none !important;
+    }
+}
 
 /*******************
 Sections
@@ -214,6 +240,9 @@ section.landing {
     vertical-align: middle;
 	height: 100%;
     border-bottom: thick solid #fff;
+    #infinite {
+		margin-top: -100px;
+    }
 }
 
 section.feature {
@@ -239,7 +268,7 @@ section.feature-2 {
 
 section.feature-3 {
 	background: @blue-1;
-	background: url(/images/10builduprender2.png) no-repeat center center;
+	background: url(/images/10builduprender2.png) no-repeat center center fixed;
     -webkit-background-size: cover; /* For WebKit*/
     -moz-background-size: cover;    /* Mozilla*/
     -o-background-size: cover;      /* Opera*/
@@ -270,12 +299,54 @@ section.feature-5 {
 	height: 100%;
 }
 
+section.feature-6 {
+	background: url(/images/slipso.png) no-repeat center center fixed;
+    -webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-size: cover;         /* Generic*/
+    vertical-align: middle;
+    z-index: 10;
+	height: 100%;
+}
+
+section.feature-3d {
+	background: url(/images/3d.png) no-repeat center center fixed;
+    -webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-size: cover;         /* Generic*/
+    vertical-align: middle;
+    z-index: 10;
+	height: 100%;
+}
+
+
 .trailer {
 	margin-top: @margin-inverse-md;
 	margin-bottom: @ui-padding*2;
 	// box-shadow: 3px 3px 20px 2px rgba(255,255,255, .5);
 }
 
+#download {
+	#ios {
+		height: 50px;
+	}
+	#itch {
+		margin: 0;
+		padding: 0;
+		img {
+			height: 45px;
+			margin: 0;
+		}
+	}
+}
+
+#infinite {
+	max-height: 60vh;
+	display: block;
+	margin: 0 auto;
+}
 
 /******************
 Layouts
@@ -300,8 +371,16 @@ Layouts
 	}
 }
 
+.text-margin {
+	margin-bottom: @ui-padding*2;
+}
+
 .title-right {
 	margin-bottom: @margin-inverse-md;
+}
+
+.text-lg {
+	margin-top: -50vh;
 }
 
 .image-fade {

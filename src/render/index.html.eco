@@ -6,7 +6,7 @@ layout: 'default'
 <a name="story"></a>
 <section class="black layout-left">
 	<div class="container">
-		<h1 class="flesh">
+		<h1>
 			At first<br>
 			we thought<br>
 			it was the<br>
@@ -21,61 +21,115 @@ layout: 'default'
 			<%- @partial('backstory') %>
 		</div>
 
+	</div>
+</section>
+
+<a name="download"></a>
+<section id="download" class="feature-6">
+	<div class="gray-overlay">
+	</div>
+	<div class="container">
+
+		<div class="col-lg-4 col-lg-offset-4 col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
+			<h1>
+				Download
+			</h1>
+			<%- @partial('download') %>
+		</div>
 
 	</div>
 </section>
 
-<section class="black layout-center">
+<a name="features"></a>
+<section class="black sm">
 	<div class="container">
-		<h1>
-			Combined<br>
-			Elements<br>
-			Create Alloys
-		</h1>
-
-		<div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
-			<img class="lazy" height="492" width="623" src="/images/pixel.png" data-original="/images/render_axo.png">
-			<%- @partial('ledger') %>
-		</div>
+		<h1 class="center">Features in Development</h1>
 	</div>
 </section>
 
 <section class="blue layout-center">
 	<div class="container">
 		<h1>
-			Combined<br>
-			Elements<br>
-			Create Alloys
+			Urban<br>
+			Augmented 
+			Reality
 		</h1>
 
 		<div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
 			<img class="lazy" height="492" width="623" src="/images/pixel.png" data-original="/images/render_axo.png">
-			<%- @partial('ledger') %>
+			<%- @partial('urban-research') %>
 		</div>
 	</div>
 </section>
 
-<section class="feature-3 layout-left">
+<section class="black layout-left">
+	<div class="container">
+		<h1>
+			Multi-<br>
+			Directional<br>
+			Trading<br>
+		</h1>
+
+		<div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
+			<img class="image-fade lazy" height="492" width="623" src="/images/pixel.png" data-original="/images/render_axo.png">
+		</div>
+
+		<div class="text col-lg-4 col-lg-offset-2 col-md-4 col-md-offset-2 col-sm-12 col-xs-12">
+			<%- @partial('gameplay-trade') %>
+		</div>
+
+	</div>
+</section>
+
+<section class="feature-3d layout-left">
 	<div class="gray-overlay">
 	</div>
 	<div class="container">
 		<div class="col-lg-4 col-lg-offset-6 col-md-4 col-md-offset-6 col-sm-12 col-xs-12">
 			<h1 class="right-title flesh">
-				Combined<br>
-				Elements<br>
-				Create Alloys
+				Geo-<br>
+				Located<br>
+				Distribtued<br>
+				Ledger
 			</h1>
 		</div>
 
-		<div class="text col-lg-4 col-lg-offset-2 col-md-4 col-md-offset-2 col-sm-12 col-xs-12">
+		<div class="text-lg col-lg-4 col-lg-offset-2 col-md-4 col-md-offset-2 col-sm-12 col-xs-12">
+			<img class="image-fade lazy" height="492" width="623" src="/images/pixel.png" data-original="/images/05LedgerGifWebLoop.gif">
 			<%- @partial('ledger') %>
 		</div>
 
 	</div>
 </section>
 
+<a name="gameplay"></a>
+<section class="black sm">
+	<div class="container">
+		<h1 class="center">Gameplay</h1>
+	</div>
+</section>
 
 <section class="gray layout-left">
+	<div class="container">
+		<h1 class="flesh">
+			7Ambient<br>
+			Elements,<br>
+			21 Alloys<br>
+		</h1>
+
+		<div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
+			<img class="image-fade lazy" height="492" width="623" src="/images/pixel.png" data-original="/images/render_axo.png">
+		</div>
+
+		<div class="text col-lg-4 col-lg-offset-2 col-md-4 col-md-offset-2 col-sm-12 col-xs-12">
+			<%- @partial('gameplay-elements') %>
+		</div>
+
+	</div>
+</section>
+
+
+<section class="black layout-left">
 	<div class="container">
 		<div class="col-lg-4 col-lg-offset-6 col-md-4 col-md-offset-6 col-sm-12 col-xs-12">
 			<h1 class="title-right">
@@ -90,32 +144,62 @@ layout: 'default'
 		</div>
 
 		<div class="text col-lg-4 col-lg-offset-2 col-md-4 col-md-offset-2 col-sm-12 col-xs-12">
-			<%- @partial('ledger') %>
+			<%- @partial('gameplay-reveal') %>
 		</div>
 
 	</div>
 </section>
 
-<a name="download"></a>
-<section class="black layout-left">
+
+<section class="gray layout-center">
 	<div class="container">
-		<h1>Download</h1>
+		<h1>
+			Trading<br>
+			Cards
+		</h1>
 
-		<div>
-			<div class="btn-group" role="group">
-				<button class="btn btn-primary">Desktop</button>
-				<button type="button" class="btn btn-secondary">Mac OS</button>
-				<button type="button" class="btn btn-secondary">Windows</button>
-			</div>
+		<div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
+			<img class="lazy" height="492" width="623" src="/images/pixel.png" data-original="/images/render_axo.png">
+			<%- @partial('gameplay-trade') %>
 		</div>
+	</div>
+</section>
 
-		<div>
-			<div class="btn-group" role="group">
-				<button class="btn btn-primary">Mobile</button>
-				<button type="button" class="btn btn-secondary">iOS</button>
-				<button type="button" class="btn btn-secondary">Android</button>
-			</div>
+<section class="feature-3">
+	<div class="gray-overlay">
+	</div>
+	<div class="container">
+
+		<div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-12 col-xs-12">
+
+			<h1>
+				Reveal the<br>
+				Patternist-3 planet
+			</h1>
+			<%- @partial('gameplay-reveal') %>
 		</div>
+	</div>
+</section>
 
+
+<section class="black">
+	<div class="container element">
+
+		<img id="infinite" src="/images/infinite.gif">
+
+	</div>
+</section>
+
+
+<a name="team"></a>
+<section class="blue">
+	<div class="container">
+		<h1 class="center text-margin">
+			Core Team
+		</h1>
+
+		<div class="col-lg-4 col-lg-offset-4 col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
+			<%- @partial('credits') %>
+		</div>
 	</div>
 </section>

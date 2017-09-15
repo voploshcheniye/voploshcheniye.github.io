@@ -95,9 +95,7 @@
 
 		<div class="container element">
 
-			<div class="title">
-				PATTERNIST
-			</div>
+			<img id="infinite" src="/images/infinite.gif">
 
 		</div>
 	</section>

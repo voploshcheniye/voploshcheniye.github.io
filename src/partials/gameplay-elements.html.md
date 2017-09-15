@@ -1,0 +1,1 @@
+In AR mode, your phone acts like a barometer, a geiger counter, and a metal detector all in one, alerting you to Patternist elements inherent in your local area. Whether you’re playing in your neighborhood or your browser, you can collect these symbolic elements ambiently hovering in the environment, but it may require patience to encounter all 7.
