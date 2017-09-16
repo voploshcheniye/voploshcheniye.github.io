@@ -11,12 +11,12 @@
 
 @ui-padding: 25px;
 
-@navbar-width: 72vw;
+@navbar-width: 85vw;
 @navbar-spacing: 12vw;
 
 @margin-inverse-lg: -150px;
 @margin-inverse-md: -100px;
-@margin-inverse-sm: -25px;
+@margin-inverse-sm: -35px;
 
 body,html {
 	background: transparent;
@@ -31,61 +31,56 @@ Typography
 *******************/
 
 @font-face {
-	font-family: 'Neou Bold';
-	src: url('/fonts/Neou-Bold.eot');
-	src: url('/fonts/Neou-Bold.eot?#iefix') format('embedded-opentype'),
-		url('/fonts/Neou-Bold.woff2') format('woff2'),
-		url('/fonts/Neou-Bold.woff') format('woff'),
-		url('/fonts/Neou-Bold.ttf') format('truetype'),
-		url('/fonts/Neou-Bold.svg#Neou-Bold') format('svg');
+	font-family: 'Aileron Bold';
+	src: url('/fonts/Aileron-Bold.eot');
+	src: url('/fonts/Aileron-Bold.eot?#iefix') format('embedded-opentype'),
+		url('/fonts/Aileron-Bold.woff') format('woff'),
+		url('/fonts/Aileron-Bold.ttf') format('truetype'),
+		url('/fonts/Aileron-Bold.svg#Aileron-Bold') format('svg');
 	font-weight: bold;
 	font-style: normal;
 }
 
-/* Patternist title */
-.title {
-	font-family: 'Neou Bold';
-	font-size: 100px;
-	letter-spacing: 5px;
-	text-align: center;
-	color: transparent;
-	text-align: center;
-	-webkit-text-stroke-width: 3px;
-    -webkit-text-stroke-color: #FFF;
-	.medium-viewport({
-		font-size: 60px;
-	});
-	.small-viewport({
-		font-size: 32px;
-	});
-	margin: 0;
-	padding: 0;
+
+@font-face {
+	font-family: 'Aileron Bold Italic';
+	src: url('/fonts/Aileron-BoldItalic.eot');
+	src: url('/fonts/Aileron-BoldItalic.eot?#iefix') format('embedded-opentype'),
+		url('/fonts/Aileron-BoldItalic.woff') format('woff'),
+		url('/fonts/Aileron-BoldItalic.ttf') format('truetype'),
+		url('/fonts/Aileron-BoldItalic.svg#Aileron-BoldItalic') format('svg');
+	font-weight: bold;
+	font-style: italic;
 }
 
-/* Patternist title */
-.title-sm {
-	font-family: 'Neou Bold';
-	font-size: 54px;
-	letter-spacing: 5px;
-	text-align: center;
-	color: transparent;
-	text-align: center;
-	padding: 0;
-	-webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #FFF;
-	.medium-viewport({
-		font-size: 34px;
-	});
-	.small-viewport({
-		font-size: 20px;
-	});
+@font-face {
+	font-family: 'Aileron';
+	src: url('/fonts/Aileron-Regular.eot');
+	src: url('/fonts/Aileron-Regular.eot?#iefix') format('embedded-opentype'),
+		url('/fonts/Aileron-Regular.woff') format('woff'),
+		url('/fonts/Aileron-Regular.ttf') format('truetype'),
+		url('/fonts/Aileron-Regular.svg#Aileron-Regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
+
+@font-face {
+	font-family: 'Aileron Italic';
+	src: url('/fonts/Aileron-Italic.eot');
+	src: url('/fonts/Aileron-Italic.eot?#iefix') format('embedded-opentype'),
+		url('/fonts/Aileron-Italic.woff') format('woff'),
+		url('/fonts/Aileron-Italic.ttf') format('truetype'),
+		url('/fonts/Aileron-Italic.svg#Aileron-Italic') format('svg');
+	font-weight: normal;
+	font-style: italic;
+}
+
 
 
 h1 {
-	font-family: 'Archivo';
-	font-size: 92px;
-	letter-spacing: -6px;
+	font-family: 'Aileron Bold';
+	font-size: 72px;
+	letter-spacing: -2px;
 	color: #FFF;
 	padding: 0;
 	margin: 0;
@@ -98,21 +93,20 @@ h1 {
 }
 
 p, a, blockquote, ul, li {
-	font-family: 'Heebo';
-	font-weight: 300;
+	font-family: 'Aileron';
+	font-weight: 400;
 }
 
 h2,h3,h4,h5,h6 {
-	font-family: 'Archivo';
-	font-weight: 500;
+	font-family: 'Aileron Bold';
 	color: #FFF;
-	letter-spacing: -1.5px;
 	z-index: 98;
 }
 
 p {
+	font-family: 'Aileron';
 	font-size: 18px;
-	font-weight: 100;
+	font-weight: 400;
 	color: #FFF;
 	z-index: 100;
 	a {
@@ -132,6 +126,79 @@ p {
 
 .flesh {
 	color: @beige-1;
+}
+
+/***************
+NAVBAR
+***************/
+
+.navbar {
+	background: #000;
+	margin: 0;
+	padding: @ui-padding auto;
+	position: fixed;
+	width: 100%;
+	.container {
+		padding: 0;
+		width: @navbar-width;
+		.small-viewport({
+			width: 90vw;
+		});
+	}
+	z-index: 101;
+}
+
+.nav > li > a {
+	background-color: #000;
+    border-top: thick solid #000;
+    color: #FFF !important;
+    font-size: 18px;
+	font-weight: 400;
+}
+
+.nav > li > a:hover, .nav > li > a:focus, .nav > li > a:active {
+	background-color: #000;
+    border-top: thick solid #fff;
+    color: #FFF;
+}
+
+.navbar-nav {
+	li {
+		width: @navbar-spacing;
+		.small-viewport({
+			width: auto;
+		});
+	}
+}
+
+.navbar-brand {
+	font-family: 'Aileron Bold';
+	color: #fff !important;
+	letter-spacing: 9px;
+	width: 300px;
+	border-top: thick solid #000;
+	&:hover {
+		border-top: thick solid #fff;
+	}
+	.small-viewport({
+		width: auto;
+	});
+}
+
+.navbar-toggle {
+	padding-top: 14px;
+	padding-bottom: 0;
+	border: none;
+}
+
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:active {
+	background: transparent;
+}
+
+.navbar-right {
+	text-align: right;
+	padding-right: 0;
+	margin-right: 0;
 }
 
 /*******************
@@ -205,6 +272,25 @@ iframe {
     }
 }
 
+.local {
+    display: block;
+    position: relative;
+    top: -54px !important;
+    visibility: hidden;
+}
+
+a {
+	i {
+		text-decoration: none;
+		color: #FFF;
+		margin-right: @ui-padding;
+		&:hover, &:active,&:focus,&:visited {
+			text-decoration: none;
+			color: #FFF;			
+		}
+	}
+}
+
 /*******************
 Sections
 *******************/
@@ -232,26 +318,20 @@ section.blue {
 	background: @blue-1;
 }
 
-.gray-overlay {
-    background-color: rgba(50, 50, 50, 0.8);
-    position: absolute;
-    width: 100%;
-    height: 100%;
-}
-
 section.landing {
+	height: 100%;
+    border-bottom: thick solid #fff;
+    background: url(/images/landing.jpg) no-repeat center center fixed;
     -webkit-background-size: cover; /* For WebKit*/
     -moz-background-size: cover;    /* Mozilla*/
     -o-background-size: cover;      /* Opera*/
     background-size: cover;         /* Generic*/
     vertical-align: middle;
 	height: 100%;
-    border-bottom: thick solid #fff;
-    #infinite {
+	#infinite {
 		margin-top: -100px;
     }
 }
-
 
 section.feature-3 {
 	background: @blue-1;
@@ -261,50 +341,56 @@ section.feature-3 {
     -o-background-size: cover;      /* Opera*/
     background-size: cover;         /* Generic*/
     vertical-align: middle;
-	height: 100vh;
+	min-height: 100%;
 }
 
 section.feature-6 {
-	background: url(/images/slipso.png) no-repeat center center fixed;
+	background: url(/images/slipso.jpg) no-repeat center center fixed;
     -webkit-background-size: cover; /* For WebKit*/
     -moz-background-size: cover;    /* Mozilla*/
     -o-background-size: cover;      /* Opera*/
     background-size: cover;         /* Generic*/
     vertical-align: middle;
-    z-index: 10;
-	height: 100%;
+	min-height: 100%;
 }
 
 section.feature-3d {
-	background: url(/images/3d.png) no-repeat center center fixed;
+	background: url(/images/3d.jpg) no-repeat center center fixed;
     -webkit-background-size: cover; /* For WebKit*/
     -moz-background-size: cover;    /* Mozilla*/
     -o-background-size: cover;      /* Opera*/
     background-size: cover;         /* Generic*/
-    vertical-align: middle;
-    z-index: 10;
-	height: 100%;
+	min-height: 100%;
 }
 
+section.ariphade {
+	background: url(/images/elements.jpg) no-repeat center center;
+    -webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-size: cover;         /* Generic*/
+	min-height: 100%;
+}
+
+
+section.trading {
+	background: url(/images/storm.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-size: cover;         /* Generic*/
+	min-height: 100%;
+}
 
 .trailer {
 	margin-top: @margin-inverse-md;
 	margin-bottom: @ui-padding*2;
-	// box-shadow: 3px 3px 20px 2px rgba(255,255,255, .5);
 }
 
-#download {
-	#ios {
-		height: 50px;
-	}
-	#itch {
-		margin: 0;
-		padding: 0;
-		img {
-			height: 45px;
-			margin: 0;
-		}
-	}
+.phone {
+	width: 80%;
+	border-radius: 15px;
+	margin: @ui-padding auto;
 }
 
 #infinite {
@@ -312,6 +398,8 @@ section.feature-3d {
 	display: block;
 	margin: 0 auto;
 }
+
+
 
 /******************
 Layouts
@@ -329,7 +417,7 @@ Layouts
 
 .layout-left {
 	.text {
-		margin-top: @margin-inverse-lg;
+		margin-top: @margin-inverse-md;
 		.small-viewport({
 			margin-top: 0;
 		});
@@ -341,7 +429,7 @@ Layouts
 }
 
 .title-right {
-	margin-bottom: @margin-inverse-md;
+	margin-bottom: @margin-inverse-sm;
 }
 
 .text-lg {
@@ -368,67 +456,8 @@ Layouts
   transform: translateY(-50%);
 }
 
-
-/***************
-NAVBAR
-***************/
-
-.navbar {
-	background: transparent;
-	margin: 0;
-	padding: @ui-padding auto;
-	.container {
-		padding: 0;
-		width: @navbar-width;
-		.small-viewport({
-			width: 90vw;
-		});
+.trading {
+	h1 {
+		//margin-bottom: @margin-inverse-md;
 	}
-}
-
-.nav > li > a {
-	background-color: #000;
-    border-top: thick solid #000;
-    color: #FFF !important;
-    font-size: 14px;
-	font-weight: 700;
-}
-
-.nav > li > a:hover, .nav > li > a:focus, .nav > li > a:active {
-	background-color: #000;
-    border-top: thick solid #fff;
-    color: #FFF;
-}
-
-.navbar-nav {
-	li {
-		width: @navbar-spacing;
-		.small-viewport({
-			width: auto;
-		});
-	}
-}
-
-.navbar-brand {
-	font-family: 'Neou Bold';
-	color: #fff !important;
-	letter-spacing: 2px;
-	width: @navbar-spacing;
-	border-top: thick solid #000;
-	&:hover {
-		border-top: thick solid #fff;
-	}
-	.small-viewport({
-		width: auto;
-	});
-}
-
-.navbar-toggle {
-	padding-top: 14px;
-	padding-bottom: 0;
-	border: none;
-}
-
-.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:active {
-	background: transparent;
 }

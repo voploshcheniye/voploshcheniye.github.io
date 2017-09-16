@@ -23,7 +23,7 @@ docpadConfig = {
 
 			# The website description (for SEO)
 			description: """
-				Patternist is a location-based augmented reality world in which you collect, trade, and combine elements to reveal the landscape of a distant exoplanet.
+				"At first we thought it was the weather." Patternist is a sci-fi, location-based augmented reality exploration game.
 				"""
 
 			# The website keywords (for SEO) separated by commas
@@ -40,17 +40,15 @@ docpadConfig = {
 			# Styles
 			styles: [
 				"//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-				"//fonts.googleapis.com/css?family=Archivo|Heebo:300,400"
+				"//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
 				"/styles/style.css"
 			]
 
 			# Scripts
 			scripts: [
 				"//cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"
-				"//code.jquery.com/ui/1.12.1/jquery-ui.min.js"
 				"//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"
 				"//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
-				"/scripts/jquery-ripples.js"
 				"//cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js"
 				"/scripts/script.js"
 			]

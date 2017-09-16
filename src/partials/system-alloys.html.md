@@ -1,1 +1,0 @@
-To engage with the uncharted Patternist landscape, you are equipped with a range of sensors and tools that will allow you to detect as many foreign elements as your sensors allow.  You’ll find that even the best equipped explorer has limited capacities so you will have to meet and trade with other players to complete your element inventory and construct all possible alloys.

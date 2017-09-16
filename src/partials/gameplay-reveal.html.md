@@ -1,5 +1,5 @@
-Alloys form the tectonic qualities of the Patternist planet, its formations hovering above our own. Choosing from the 21 alloys, players can apply them to reveal a detailed alien landscape that will increase in complexity as they go. Patternist gameplay culminates in the revelation of these Patternist-3 planet landscapes.
+Patternist gameplay culminates in the revelation of Patternist-3 planet landscapes, hovering above our own.
 
-With this combinatory system of landform generation, the possible alloys offer players a spatial riddle of geologic systems, allowing players to experiment with new topologies, while ambiently rehearsing alternatives to the real world we know. 
+Unusual maps, trades, and encoded perspectives lay in wait as you engage with urban environments through the lens of this newly revealed exoplanet.
 
-The game becomes a method to blend realities, weaving them together in ways that allow players to navigate both worlds simultaneously.
+You may even stumble upon the source of a mysterious phenomenon in the process.

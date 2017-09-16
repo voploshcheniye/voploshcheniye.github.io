@@ -1,3 +1,0 @@
-What observations will Patternist inherit from Moscow City, where the tallest commercial towers in Europe sit in a sea of parking and security gates? Or 100 meters away, in a uniform residential neighbourhood, of iconic soviet Kruschevki, slated for imminent demolition? Or just at the post-industrial adaptive factory district of Bolotniyy Ostrov, at the bridge beside Strelka Institute?
-
-Walking from neighborhood to neighborhood, gamers will be able to see scales of complexity in map pieces that can be played upon, each one a unique transcription of an augmentation on that area. The game becomes a method to blend realities, weaving them together in ways that allow players to navigate both worlds simultaneously.

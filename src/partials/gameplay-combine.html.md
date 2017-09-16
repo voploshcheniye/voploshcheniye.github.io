@@ -1,3 +1,3 @@
-# Combine Alloys #
+Alloys form the tectonic qualities of the Patternist planet, its formations hovering above our own. Choosing from the 21 alloys, players can apply them to reveal a detailed alien landscape that will increase in complexity as they go.
 
-Once you have obtained complimentary elements, you will be able to use your extrusion tools to combine them into an alloy representative of a possible landform to be found on Patternist.  As exotic complex materials host a wide variety of properties, you will need to cross-reference elemental attributes to determine the landform characteristics.
+With this combinatory system of landform generation, the possible alloys offer players a spatial riddle of geologic systems, allowing players to experiment with new topologies. 

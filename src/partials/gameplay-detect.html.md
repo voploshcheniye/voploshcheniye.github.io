@@ -1,1 +1,3 @@
-In order for players to engage with this uncharted landscape, each is equipped with a range of sensors and tools that will allow them to detect as many foreign elements as their sensors allow.  You’ll find that even the best equipped explorer will always have limited capacities and that you will have to actively engage and trade with other players to complete your element inventory and the possible allows.
+In the mobile app, your phone acts like a barometer, a geiger counter, and a metal detector all in one, alerting you to Patternist elements ambiently in your local area.
+
+Whether you’re playing in your neighborhood or on your desktop, you can collect these symbolic elements hovering in the environment and combine them to produce new alloys, but it may require patience to encounter all 7 of the elements in the Patternist world.
