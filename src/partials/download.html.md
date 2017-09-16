@@ -20,8 +20,3 @@ The desktop app is a development environment featuring multiplayer trading, chat
 		<a class="btn btn-lg btn-secondary" href="https://patternist.itch.io/game">Windows</a>
 	</div>
 </div>
-
-
-
-
-

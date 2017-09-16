@@ -17,9 +17,11 @@
 @margin-inverse-lg: -150px;
 @margin-inverse-md: -100px;
 @margin-inverse-sm: -35px;
+@margin-inverse-xs: -30px;
+
 
 body,html {
-	background: transparent;
+	background: #000;
 	width: 100%;
 	height: 100%;
 	margin: 0;
@@ -85,10 +87,11 @@ h1 {
 	padding: 0;
 	margin: 0;
 	.medium-viewport({
-		font-size: 34px;
+		font-size: 48px;
 	});
 	.small-viewport({
 		font-size: 34px;
+		letter-spacing: -1px;
 	});
 }
 
@@ -243,7 +246,10 @@ iframe {
 
 .btn {
 	padding: @ui-padding/2 @ui-padding;
-	font-family: 'Heebo';
+	font-family: 'Aileron';
+	.small-viewport({
+		padding: @ui-padding/2 @ui-padding/2;
+	});
 }
 
 .btn-primary {
@@ -277,6 +283,9 @@ iframe {
     position: relative;
     top: -54px !important;
     visibility: hidden;
+    .small-viewport({
+		top: -50px !important;
+	});
 }
 
 a {
@@ -328,20 +337,13 @@ section.landing {
     background-size: cover;         /* Generic*/
     vertical-align: middle;
 	height: 100%;
-	#infinite {
-		margin-top: -100px;
-    }
-}
-
-section.feature-3 {
-	background: @blue-1;
-	background: url(/images/10builduprender2.png) no-repeat center center fixed;
-    -webkit-background-size: cover; /* For WebKit*/
-    -moz-background-size: cover;    /* Mozilla*/
-    -o-background-size: cover;      /* Opera*/
-    background-size: cover;         /* Generic*/
-    vertical-align: middle;
-	min-height: 100%;
+    .small-viewport({
+    	background: url(/images/patternist.jpg) no-repeat center center fixed;
+	    -webkit-background-size: contain; /* For WebKit*/
+	    -moz-background-size: contain;    /* Mozilla*/
+	    -o-background-size: contain;      /* Opera*/
+	    background-size: contain;         /* Generic*/
+	});
 }
 
 section.feature-6 {
@@ -385,6 +387,10 @@ section.trading {
 .trailer {
 	margin-top: @margin-inverse-md;
 	margin-bottom: @ui-padding*2;
+	.small-viewport({
+		margin-top: @ui-padding;
+		margin-bottom: @ui-padding;
+	});	
 }
 
 .phone {
@@ -393,12 +399,26 @@ section.trading {
 	margin: @ui-padding auto;
 }
 
-#infinite {
-	max-height: 60vh;
-	display: block;
-	margin: 0 auto;
+.cards {
+	h1 {
+		margin-bottom: @ui-padding;
+		.small-viewport({
+			text-align: right;
+		});	
+	}
+	img {
+		.small-viewport({
+			margin-top: @ui-padding;
+			margin-bottom: @ui-padding;
+		});	
+	}
 }
 
+.icons {
+	text-align: center;
+	margin-top: @ui-padding*2;
+	margin-bottom: @ui-padding;
+}
 
 
 /******************
@@ -408,9 +428,9 @@ Layouts
 .layout-center {
 	h1 {
 		text-align: center;
-		margin-bottom: @margin-inverse-md;
+		margin-bottom: @margin-inverse-sm;
 		.small-viewport({
-			margin-bottom: @margin-inverse-sm/2;
+			margin-bottom: @margin-inverse-xs;
 		});
 	}
 }
@@ -426,14 +446,23 @@ Layouts
 
 .text-margin {
 	margin-bottom: @ui-padding*2;
+	.small-viewport({
+		margin-bottom: @ui-padding;
+	});
 }
 
 .title-right {
 	margin-bottom: @margin-inverse-sm;
+	.small-viewport({
+		margin-bottom: 0;
+	});
 }
 
-.text-lg {
+.text-margin-lg {
 	margin-top: -50vh;
+	.small-viewport({
+		margin-top: @margin-inverse-xs;
+	});
 }
 
 .image-fade {
@@ -454,10 +483,4 @@ Layouts
   position: relative;
   top: 50%;
   transform: translateY(-50%);
-}
-
-.trading {
-	h1 {
-		//margin-bottom: @margin-inverse-md;
-	}
 }

@@ -23,7 +23,7 @@ docpadConfig = {
 
 			# The website description (for SEO)
 			description: """
-				"At first we thought it was the weather." Patternist is a sci-fi, location-based augmented reality exploration game.
+				At first we thought it was the weather. Patternist is a sci-fi, location-based augmented reality game.
 				"""
 
 			# The website keywords (for SEO) separated by commas
@@ -34,7 +34,7 @@ docpadConfig = {
 			# The website author's name
 			author: "Voploshcheniye Inc."
 
-			# The website author's emailugin
+			# The website author's email
 			email: "contact@pattern.ist"
 
 			# Styles
