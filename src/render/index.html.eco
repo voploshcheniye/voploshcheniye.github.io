@@ -4,7 +4,7 @@ layout: 'default'
 
 
 <a name="story" class="local"></a>
-<section class="black layout-left">
+<section class="black sm layout-left">
 	<div class="container">
 		<h1>
 			At first<br>
@@ -13,11 +13,11 @@ layout: 'default'
 			weather.
 		</h1>
 
-		<div class="col-lg-6 col-lg-offset-4 col-md-6 col-md-offset-4 col-sm-12 col-xs-12">
+		<div class="col-lg-6 col-lg-offset-4 col-md-5 col-md-offset-4 col-sm-12 col-xs-12">
 			<iframe class="trailer" width="650" height="365" src="https://www.youtube.com/embed/yl-Jlnx4Dho?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 		</div>
 
-		<div class="col-lg-5 col-lg-offset-4 col-md-5 col-md-offset-4 col-sm-12 col-xs-12">
+		<div class="col-lg-5 col-lg-offset-4 col-md-5 col-md-offset-4 col-sm-8 col-sm-offset-2 col-xs-12">
 			<%- @partial('backstory') %>
 		</div>
 
@@ -57,7 +57,7 @@ layout: 'default'
 	</div>
 </section>
 
-<section class="black layout-left">
+<section class="black sm layout-left">
 	<div class="container">
 		<h1>
 			Multi-<br>
@@ -76,7 +76,7 @@ layout: 'default'
 	</div>
 </section>
 
-<section class="feature-3d layout-left">
+<section class="feature-3d sm layout-left">
 	<div class="container">
 		<div class="col-lg-4 col-lg-offset-6 col-md-4 col-md-offset-6 col-sm-12 col-xs-12">
 			<h1 class="right-title flesh">
@@ -87,7 +87,7 @@ layout: 'default'
 			</h1>
 		</div>
 
-		<div class="text-margin-lg col-lg-4 col-lg-offset-2 col-md-4 col-md-offset-2 col-sm-12 col-xs-12">
+		<div class="text-margin-lg col-lg-4 col-lg-offset-2 col-md-4 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12">
 			<img class="lazy" height="300" width="367" src="/images/pixel.png" data-original="/images/ledger.gif">
 			<%- @partial('features-ledger') %>
 		</div>
@@ -111,7 +111,7 @@ layout: 'default'
 			</h1>
 		</div>
 
-		<div class="col-lg-4 col-lg-offset-4 col-md-4 col-md-offset-4 col-sm-12 col-xs-12">
+		<div class="col-lg-4 col-lg-offset-4 col-md-4 col-md-offset-4 col-sm-8 col-sm-offset-2 col-xs-12">
 			<img class="lazy phone img-fade" height="533" width="300" src="/images/pixel.png" data-original="/images/screenshot_02.jpg">
 			<%- @partial('gameplay-detect') %>
 		</div>
@@ -157,7 +157,7 @@ layout: 'default'
 </section>
 
 
-<section class="black layout-left">
+<section class="black layout-left sm">
 	<div class="container">
 		<div class="col-lg-4 col-lg-offset-8 col-md-4 col-md-offset-8 col-sm-12 col-xs-12">
 			<h1 class="title-right">
@@ -167,11 +167,11 @@ layout: 'default'
 			</h1>
 		</div>
 
-		<div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
+		<div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-10 col-sm-offset-1 col-xs-12">
 			<img class="lazy" height="500" width="800" src="/images/pixel.png" data-original="/images/alloy_grid.png">
 		</div>
 
-		<div class="text col-lg-4 col-lg-offset-2 col-md-4 col-md-offset-2 col-sm-12 col-xs-12">
+		<div class="text col-lg-4 col-lg-offset-2 col-md-4 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12">
 			<%- @partial('gameplay-combine') %>
 		</div>
 
@@ -179,14 +179,14 @@ layout: 'default'
 </section>
 
 
-<section class="trading layout-left">
+<section class="trading sm layout-left">
 	<div class="container">
 		<h1 class="title-right">
 			Trading<br>
 			Elements
 		</h1>
 
-		<div class="col-lg-6 col-lg-offset-6 col-md-6 col-md-offset-6 col-sm-12 col-xs-12">
+		<div class="col-lg-6 col-lg-offset-6 col-md-6 col-md-offset-6 col-sm-8 col-sm-offset-2 col-xs-12">
 			<img class="lazy" height="565" width="800" src="/images/pixel.png" data-original="/images/trade.gif">
 			<%- @partial('gameplay-trade') %>
 		</div>
@@ -195,7 +195,7 @@ layout: 'default'
 
 <section class="black layout-center">
 	<div class="container">
-		<div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
+		<div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-12">
 
 			<h1 class="center">
 				Reveal the<br>
@@ -208,13 +208,13 @@ layout: 'default'
 </section>
 
 <a name="team" class="local"></a>
-<section class="blue">
+<section class="blue sm">
 	<div class="container">
 		<h1 class="center text-margin">
 			Core Team
 		</h1>
 
-		<div class="col-lg-4 col-lg-offset-4 col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
+		<div class="col-lg-4 col-lg-offset-4 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-12">
 			<%- @partial('credits') %>
 		</div>
 	</div>
@@ -226,7 +226,7 @@ layout: 'default'
 			Contact
 		</h1>
 
-		<div class="col-lg-4 col-lg-offset-4 col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
+		<div class="col-lg-4 col-lg-offset-4 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-12">
 			<%- @partial('development') %>
 
 			<div class="icons">
