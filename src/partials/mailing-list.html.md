@@ -1,0 +1,1 @@
+This newsletter, hosted by <a href="http://tinyletter.com/patternist">TinyLetter</a>, will let you know about new releases and upcoming events.

@@ -25,7 +25,7 @@ layout: 'default'
 </section>
 
 <a name="download" class="local"></a>
-<section class="feature-6">
+<section class="feature-6 download">
 	<div class="gray-overlay">
 	</div>
 	<div class="container">
@@ -35,6 +35,18 @@ layout: 'default'
 				Download
 			</h1>
 			<%- @partial('download') %>
+
+			<h1>
+				Mailing List
+			</h1>
+
+			<%- @partial('mailing-list') %>
+
+			 <form class="btn-group" action="https://tinyletter.com/Patternist" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/Patternist', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+				<input type="text" class="btn btn-lg btn-primary" name="email" id="tlemail" placeholder="Email address" />
+				 <input type="hidden" value="1" name="embed"/>
+			 <input class="btn btn-lg btn-secondary" type="submit" value="Subscribe" /></p></form>
+         
 		</div>
 
 	</div>
