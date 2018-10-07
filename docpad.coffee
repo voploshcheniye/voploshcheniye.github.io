@@ -100,7 +100,7 @@ docpadConfig = {
 			deployRemote: 'origin'
 			deployBranch: 'master'
 		cleanurls:
-				static: false			
+				static: true			
 
 	# =================================
 	# DocPad Events
