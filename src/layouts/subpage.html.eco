@@ -90,14 +90,6 @@
 			</div>
 		</nav>
 
-	<section class="black landing parent-element">
-
-		<div class="container element">
-
-			<!--<img id="infinite" src="/images/infinite.gif">-->
-
-		</div>
-	</section>
 
 	<%- @content %>
 

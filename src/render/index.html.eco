@@ -24,6 +24,27 @@ layout: 'default'
 	</div>
 </section>
 
+
+<a name="impakt" class="local"></a>
+<section class="blue sm impakt">
+	<div class="container">
+
+		<div class="col-lg-4 col-lg-offset-4 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-12">
+			<h1>
+			IMPAKT Festival 2018
+			</h1>
+			<p>
+				Patternist is featured in the <a href="http://impakt.nl/festival/">IMPAKT Festival 2018</a>: Algorithmic Superstructures. 
+			<div>
+				<div class="btn-group" role="group">
+					<a href="/impakt" type="button" class="btn btn-lg btn-secondary">Play Now</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
 <a name="download" class="local"></a>
 <section class="feature-6 download">
 	<div class="gray-overlay">
@@ -52,7 +73,7 @@ layout: 'default'
 	</div>
 </section>
 
-<a name="features" class="local"></a>
+<a name="gameplay" class="local"></a>
 
 <section class="blue layout-center">
 	<div class="container">
@@ -106,8 +127,6 @@ layout: 'default'
 
 	</div>
 </section>
-
-<a name="gameplay" class="local"></a>
 
 
 <section class="ariphade">
@@ -204,6 +223,8 @@ layout: 'default'
 		</div>
 	</div>
 </section>
+
+
 
 <section class="black layout-center">
 	<div class="container">
