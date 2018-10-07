@@ -99,6 +99,8 @@ docpadConfig = {
 		ghpages:
 			deployRemote: 'origin'
 			deployBranch: 'master'
+		cleanurls:
+				static: false			
 
 	# =================================
 	# DocPad Events
