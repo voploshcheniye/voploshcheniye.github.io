@@ -1,0 +1,1 @@
+Once you have obtained complementary elements, you can combine them, 1 to 1, into an alloy &#8212; representative of a possible landform to be found on Patternist. As complex materials host a wide variety of properties, you will need to cross-reference attributes of the elements to determine the alloy's landform characteristics.
