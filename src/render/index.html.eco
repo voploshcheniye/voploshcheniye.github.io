@@ -37,7 +37,7 @@ layout: 'default'
 				Patternist is featured in the <a href="http://impakt.nl/festival/">IMPAKT Festival 2018</a>: Algorithmic Superstructures. 
 			<div>
 				<div class="btn-group" role="group">
-					<a href="/impakt" type="button" class="btn btn-lg btn-secondary">Play Now</a>
+					<a href="/impakt/" type="button" class="btn btn-lg btn-secondary">Play Now</a>
 				</div>
 			</div>
 		</div>
